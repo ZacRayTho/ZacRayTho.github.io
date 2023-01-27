@@ -12,7 +12,7 @@
 
  I get sporadic bursts of interests in things, like learning to solve a rubik's cube or flip a butterfly knife. But some interests don't stick so when I picked up coding as an interest and found this bootcamp, I was unsure if I would stick with it. That's why I took the Intro to Web course and did other various online courses for probably 6 months leading up to applying for the bootcamp.
 
-   ![Me, When I get my first coding job](/img/HappyCode.jpg)
+   ![Me, When I get my first coding job](/img/HappyCode.jpg "Me, When I get my first coding job")
 
 ### This is a Great Boilerplate!
 
