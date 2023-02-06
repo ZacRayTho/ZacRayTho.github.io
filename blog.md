@@ -46,26 +46,30 @@
  
  ### What are your thoughts about the roles HTML, CSS, and JavaScript play in the process of rendering content and providing user experience?
 
-     They play an important part,they are what the user will see and will affect the whole user experience. No one wants to go a site that looks like its
-     been around since the dawn of computers.    
+     They play an important part,they are what the user will see and will affect the whole user experience.  
+     No one wants to go a site that looks like its been around since the dawn of computers.    
 
  ### What are your thoughts on pseudocoding?
 
-    I understand the importance of pseudocoding, its a high level interpretation of code that anyone should be able to read and understand. 
-    Its suppose to lay out the foundation for all the coding in the rest of the project, and just make the coding easier in general. I would say
-    currently I'm not very good at pseudocode but confident i will be by the end of the course.
+    I understand the importance of pseudocoding, its a high level interpretation of code that anyone should  
+    be able to read and understand. Its suppose to lay out the foundation for all the coding in the rest of   
+    the project, and just make the coding easier in general. I would say currently I'm not very good at pseudocode  
+    but confident i will be by the end of the course.
     
 ### What was helpful during Onboarding working remotely?
 
-    Google was my best friend. The help channel even though I didn't post in it seeing other peoples having similar problems made me feel like I wasn't 
-    totally off the path that was laid out. Also seeing other peoples projects was nice too to see how much progress everyone was making.
+    Google was my best friend. The help channel even though I didn't post in it seeing other peoples having  
+    similar problems made me feel like I wasn't totally off the path that was laid out. Also seeing other   
+    peoples projects was nice too to see how much progress everyone was making.
     
 ### What Hindered your progress during Onboarding?
 
-    Mostly myself, I struggled to pay attention near the end of the day. Especially if I was having trouble with a problem, I couldn't stay focused until I 
-    figured it out and than it was like a snowball effect when I started making progress.
+    Mostly myself, I struggled to pay attention near the end of the day. Especially if I was having trouble   
+    with a problem, I couldn't stay focused until I figured it out and than it was like a snowball effect when  
+    I started making progress.
     
 ### How did you overcome challenges during Onboarding? 
 
-    I just had to push myself, or take 15 minutes breaks to hopefully break up the constant screen time and give my brain a rest from all the logic solving.
+    I just had to push myself, or take 15 minutes breaks to hopefully break up the constant screen time and   
+    give my brain a rest from all the logic solving.
  
