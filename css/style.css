@@ -3,5 +3,9 @@ svg {
 }
 
 img {
-    width: 8em;
+    width: 10em;
+}
+
+.cls-1 {
+    fill: aliceblue;
 }
