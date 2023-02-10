@@ -1,20 +1,17 @@
-svg {
+img {
     width: 3em;
     max-height: 3.1em;
     margin: 5px;
 }
 
-svg:hover {
-    fill:#9ca2a7;
+img:not(#me):hover {
+    filter: invert(.5);
     scale:1.1;
 }
 
-.cls-1:hover {
-    fill: #9ca2a7;
-}
-
-
-img {
+#me {
     width: 8em;
+    height:10em;
+    max-height: fit-content;
 }
 
