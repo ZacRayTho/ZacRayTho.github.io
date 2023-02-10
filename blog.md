@@ -72,4 +72,23 @@
 
     I just had to push myself, or take 15 minutes breaks to hopefully break up the constant screen time and   
     give my brain a rest from all the logic solving.
+   
+## 2-10-23 Sprint 1 HTML/CSS/JS/STATE
+
+### What is the number one thing that held you back this week? Why?
+
+    Probably styling I can get the grids to lay out but getting the things inside the containers to center 
+    or position how I want without a bunch of css and bootstrap on everything cluttering the html is difficult. 
+
+### What is one thing you would like to learn more about regarding JavaScript,Bootstrap, Atomic Design?
+
+    I think i'd like to to learn more about bootstrap because I still struggle alot with centering things without 
+    having to cover every container with the same class. 
+
+### What is your "Why" ?
  
+    I worked at walmart for 4 years and didn't want to just work retail all my life,and management definetly isn't for me.
+    I always wanted to have a more important job and make more money and tried my hand at several things but either didn't 
+    care for them or the pay at the end of the road wasn't worth it to me. Of course I also want to provide for my family 
+    aswell, and be able to take care of them. But at the moment my girlfriend lives with her sister and I roommate with
+    my mother so I'd say its mostly my want to better myself.
