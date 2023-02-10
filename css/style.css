@@ -1,13 +1,21 @@
 svg {
     width: 3em;
+    max-height: 3.1em;
     margin: 5px;
 }
+
+svg:hover {
+    fill:#9ca2a7;
+    scale:1.1;
+}
+
+.cls-1:hover {
+    fill: #9ca2a7;
+}
+
 
 img {
     width: 8em;
     
 }
 
-.cls-1 {
-    fill: aliceblue;
-}
