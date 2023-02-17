@@ -92,3 +92,28 @@
     care for them or the pay at the end of the road wasn't worth it to me. Of course I also want to provide for my family 
     aswell, and be able to take care of them. But at the moment my girlfriend lives with her sister and I roommate with
     my mother so I'd say its mostly my want to better myself.
+    
+    
+## 2-10-23 Sprint 1 VanillaJS
+
+### What did you learn about that helped you understand the development process?
+
+    You can't have everything right when you want it ,and you can't always expect to get back the results you want.   
+    thats how APIs work,you have to program accordingly to so as not to hinder the User experience waiting on results of an API.   
+    and you have to defensively program incase the API doesn't return what you expected.
+
+### What does it mean to develop good code?
+
+    It means to develop code that gets the job done in the most simple way without hindering performance or user experience.
+    it means good documentation/pseudocode to back up your code so its easier understanding it after a week or in the
+    case that someone else has to interact with it.
+
+### What does it mean to be a good developer?
+
+    to practice good coding practices and understand the end goal thoroughly before even beginning the code.
+
+### What is one thing that programmers hate doing?
+
+    typing and repeating themselves,so they made functions and thousands of libraries that are open source and
+    free to use for anyone who wants them.
+
