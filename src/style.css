@@ -1,3 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+
+body {
+    color: white;
+}
+#start {
+    background-image: url(./img/splash-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 90vh;
+    width: 100vw;
+}
+
+h1 {
+    font-family: 'Kaushan Script', sans-serif;
+    font-size: 6rem;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+
 img {
     width: 3em;
     max-height: 3.1em;
