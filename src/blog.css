@@ -21,3 +21,7 @@ aside {
 .justify-content-center {
     width: 100vw;
 }
+
+#project-teaser {
+    height: 15rem;
+}

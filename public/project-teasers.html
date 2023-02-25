@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../src/img/zt-logo.png" />
+    <title>Zach's First Week</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../src/blog.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <div class="container-fluid ">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto border border-light border-5 rounded-top bg-dark">
+                    <li class="nav-item mx-3 ">
+                        <a class="nav-link" href="https://zacraytho.github.io/">About</a>
+                    </li>
+                    <li class="nav-item mx-3 ">
+                        <a class="nav-link" href="https://zacraytho.github.io/public/blog-teasers">Blog</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="https://zacraytho.github.io/public/contact-card">Contact</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="d-flex justify-content-center">
+        <div class="border border-light border-5 rounded container-sm bg-dark">
+            <div class="row">
+                <div class="card col-lg-3 col-md-4 col-sm-6 mb-4 mx-auto" style="width: 18rem;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Weather app</h5>
+                        <div class="card-text ">
+                            <img class="border" id="project-teaser"
+                                src="../src/img/project-teasers/weather-app-teaser.png">
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#weatherapp">
+                                More info
+                            </button>
+                            <div class="modal fade" id="weatherapp" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="weatherapp">Weather app</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Our first time using axios and pulling data from an outside source AKA an
+                                            API. This is a rather simple app, simply displaying the temp of whatever zip
+                                            code you put
+                                            in,or if you allow it, can use your browsers geolocation to find your zip
+                                            out
+                                            automatically.
+                                            As an extra challenge, we had to generate html elements using
+                                            javascript.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <a href="https://zacraytho.github.io/weather-app/"><button type="button"
+                                                    class="btn btn-primary">Check
+                                                    it out!</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary card-link">Check it out!</a>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-4 col-sm-6 mb-4 mx-auto" style="width: 18rem;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Tic-Tac-Toe</h5>
+                        <div class="card-text ">
+                            <img class="border" id="project-teaser"
+                                src="../src/img/project-teasers/tic-tac-toe-teaser.png">
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#ticTacToe">
+                                More info
+                            </button>
+                            <div class="modal fade" id="ticTacToe" tabindex="-1" aria-labelledby="ticTacToe"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="ticTacToe">Tic-Tac-Toe</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Our second big project, maybe not super advanced for a human, but getting
+                                            the human logic into code that the computer will understand was the real
+                                            challenge of this project. It really made me stop and think and pseudocode
+                                            before hopping straight into coding, sadly I still had a couple hiccups along the way
+                                            because of bad logic on my part. 
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <a href="https://zacraytho.github.io/tic-tac-toe/"><button type="button"
+                                                    class="btn btn-primary">Check
+                                                    it out!</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary card-link">Check it out!</a>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-4 col-sm-6 mb-4 mx-auto" style="width: 18rem;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">HTML/CSS/JS/State</h5>
+                        <p class="card-text">Coming Soon to a blog near you!</p>
+                        <a href="#" class="btn btn-primary card-link">Check it out!</a>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-4 col-sm-6 mb-4 mx-auto" style="width: 18rem;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">VanillaJS</h5>
+                        <p class="card-text">Coming Soon to a blog near you!</p>
+                        <a href="#" class="btn btn-primary card-link">Check it out!</a>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-4 col-sm-6 mb-4 mx-auto" style="width: 18rem;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Technical Article</h5>
+                        <p class="card-text">Coming Soon to a blog near you!</p>
+                        <a href="#" class="btn btn-primary card-link">Check it out!</a>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-4 col-sm-6 mb-4 mx-auto" style="width: 18rem;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">React Intro</h5>
+                        <p class="card-text">Coming Soon to a blog near you!</p>
+                        <a href="#" class="btn btn-primary card-link">Check it out!</a>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-4 col-sm-6 mb-4 mx-auto" style="width: 18rem;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">CLI</h5>
+                        <p class="card-text">Coming Soon to a blog near you!</p>
+                        <a href="#" class="btn btn-primary card-link">Check it out!</a>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-4 col-sm-6 mb-4 mx-auto" style="width: 18rem;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Halfway!</h5>
+                        <p class="card-text">Coming Soon to a blog near you!</p>
+                        <a href="#" class="btn btn-primary card-link">Check it out!</a>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-4 col-sm-6 mb-4 mx-auto" style="width: 18rem;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Python</h5>
+                        <p class="card-text">Coming Soon to a blog near you!</p>
+                        <a href="#" class="btn btn-primary card-link">Check it out!</a>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-4 col-sm-6 mb-4 mx-auto" style="width: 18rem;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Django 1</h5>
+                        <p class="card-text">Coming Soon to a blog near you!</p>
+                        <a href="#" class="btn btn-primary card-link">Check it out!</a>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-4 col-sm-6 mb-4 mx-auto" style="width: 18rem;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Django 2</h5>
+                        <p class="card-text">Coming Soon to a blog near you!</p>
+                        <a href="#" class="btn btn-primary card-link">Check it out!</a>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-4 col-sm-6 mb-4 mx-auto" style="width: 18rem;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Finish line</h5>
+                        <p class="card-text">Coming Soon to a blog near you!</p>
+                        <a href="#" class="btn btn-primary card-link">Check it out!</a>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-4 col-sm-6 mb-4 mx-auto" style="width: 18rem;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Final Project 1</h5>
+                        <p class="card-text">Coming Soon to a blog near you!</p>
+                        <a href="#" class="btn btn-primary card-link">Check it out!</a>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-4 col-sm-6 mb-4 mx-auto" style="width: 18rem;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Final Project 2</h5>
+                        <p class="card-text">Coming Soon to a blog near you!</p>
+                        <a href="#" class="btn btn-primary card-link">Check it out!</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+<!--  Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
