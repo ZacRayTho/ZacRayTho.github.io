@@ -1,0 +1,21 @@
+body {
+    color:white;
+    background-image: url("../src/img/blog-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+aside {
+    float:right;
+}
+
+
+#box {
+
+    height: 80vh;
+}
+
+.justify-content-center {
+    width: 100vw;
+}

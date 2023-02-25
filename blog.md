@@ -1,5 +1,6 @@
 # My answers 
 
+## Week 1
 ## Was your first week what you expected? Why? Why not?
 
  Not what I expected because I was not aware of how important Github and Git were. I am enjoying it though and the slow transition into everything and can't wait to **ramp** it up.
@@ -41,7 +42,7 @@
         </body>
     </html>
 
-
+## Week 2
  ## 2-6-23 Onboarding Sprint 2
  
  ### What are your thoughts about the roles HTML, CSS, and JavaScript play in the process of rendering content and providing user experience?
@@ -72,7 +73,8 @@
 
     I just had to push myself, or take 15 minutes breaks to hopefully break up the constant screen time and   
     give my brain a rest from all the logic solving.
-   
+
+## Week 3 
 ## 2-10-23 Sprint 1 HTML/CSS/JS/STATE
 
 ### What is the number one thing that held you back this week? Why?
@@ -93,7 +95,7 @@
     aswell, and be able to take care of them. But at the moment my girlfriend lives with her sister and I roommate with
     my mother so I'd say its mostly my want to better myself.
     
-    
+## Week 4
 ## 2-10-23 Sprint 1 VanillaJS
 
 ### What did you learn about that helped you understand the development process?
@@ -117,3 +119,4 @@
     typing and repeating themselves,so they made functions and thousands of libraries that are open source and
     free to use for anyone who wants them.
 
+## Week 5
