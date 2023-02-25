@@ -1,0 +1,4 @@
+- fix tic tac toe on mobile
+- fix blog pages on mobile(check blog teaser)
+- add zt-logo to weather app and tic-tac-toe tab icon
+- fill out blog for week 5 technical article and add to html and teaser page
