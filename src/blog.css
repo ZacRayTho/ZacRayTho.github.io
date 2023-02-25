@@ -10,9 +10,11 @@ aside {
     float:right;
 }
 
+.card {
+    color:black;
+}
 
 #box {
-
     height: 80vh;
 }
 
