@@ -21,13 +21,38 @@ body {
     height: 55vh;
 }
 
+@keyframes bounce {
+    0% {
+        transform: translate(0px, -0px);
+    }
+
+    25% {
+        transform: translate(0px, -35px);
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+    }
+
+    75% {
+        transform: translate(0px, -15px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
 #chevron {
     height: 36vh;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 
 }
 
 h1 {
-    
+
     color: white;
     font-family: 'Kaushan Script', sans-serif;
     font-size: 11vh;
@@ -38,4 +63,3 @@ hr {
     height: 1px;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
 }
-
