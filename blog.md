@@ -75,7 +75,7 @@
     give my brain a rest from all the logic solving.
 
 ## Week 3 
-## 2-10-23 Sprint 1 HTML/CSS/JS/STATE
+## 2-13-23 Sprint 1 HTML/CSS/JS/STATE
 
 ### What is the number one thing that held you back this week? Why?
 
@@ -96,7 +96,7 @@
     my mother so I'd say its mostly my want to better myself.
     
 ## Week 4
-## 2-10-23 Sprint 1 VanillaJS
+## 2-20-23 Sprint 2 VanillaJS
 
 ### What did you learn about that helped you understand the development process?
 
@@ -120,3 +120,13 @@
     free to use for anyone who wants them.
 
 ## Week 5
+## 2-27-23 Sprint 3 Technical Article
+
+### What is pseudocode and how does it help programming?
+
+    The most basic definition of pseudocode to me, is a high level "coding language". A more in depth definition would be, pseudocode is every step that you want the computer to go through,broken down into the most basic logic, until you have identified everything needed for every step. Its writing out all possible functions you may need, and all variables that function may need or a variable that every function in the program needs access to. There are lots of ways to add to your pseudocode, so to help you think more in depth about everything.  
+
+    One of the first things we learned about was atomic design and how to identify parts of a webpage/wireframe and break them down into atoms, molecules, and organisms. We recently learned about MoSCoW which stands for "Must Have,Should Have,Could Have, and Won't Have". While I wouldn't say its pseudocode directly, it can help keep your direction while pseudocoding so you don't get hung up on a detail that you could have and focus more on what you must have. Theres also the "User Journey" which describes the process the user go through when operating the app/website.     
+
+    Pseudocode helps programmers in the first half of the development process so you can work through the logic only without having to worry about syntax of the coding language. It also is more readable for a human so that a development team doesn't have to question each other about what they mean by some form of code. Best of all pseudocode can be translated into any programming language you want easily, given that you know that languages syntax already.
+
