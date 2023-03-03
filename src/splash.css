@@ -67,21 +67,21 @@ hr {
 
 #about {
     margin-top: 2vh;
-    /* margin-left: 2vh; */
+    margin-left: 2vh;
 }
 
 .zig {
-    /* padding-left: 10vh; */
+    padding-left: 10vh;
     clip-path: polygon(100% 0, 100% 100%, 10% 100%, 0% 50%, 10% 0);
     height: 50vh;
     background-color: #003566;
     z-index: -1;
-    width: 100%;
+    
 }
 
 .zag {
-    /* padding-right: 10vh; */
-    /* margin-left: 2vh; */
+    padding-right: 10vh; 
+    margin-left: 2vh;
     clip-path: polygon(0 0, 0 100%, 90% 100%, 100% 50%, 90% 0);
     height: 50vh;
     background-color: #003566;
