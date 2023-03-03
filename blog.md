@@ -130,3 +130,17 @@
 
     Pseudocode helps programmers in the first half of the development process so you can work through the logic only without having to worry about syntax of the coding language. It also is more readable for a human so that a development team doesn't have to question each other about what they mean by some form of code. Best of all pseudocode can be translated into any programming language you want easily, given that you know that languages syntax already.
 
+## Week 6
+## 3-3-23 Sprint 4 React Intro
+
+### Do you think JavaScript Frameworks and Libraries are easy or hard to use? Why?
+
+    I think JavaScript Libraries at first are hard to use because they introduce new things and new ways to do things that were previously impossible. Having one week with React under my belt, I would say they aren't really hard to use. Its still Javascript, just with a some new syntax and built in functions
+
+### What Frameworks or Libraries are you interested in learning more about?
+
+    In my self studies, I started learning about Flask, which seems very similar to React with using a single html "boilerplate"/skeleton. I don't think we go over that in this bootcamp but I believe Django will be a better framework. I think Django is a more developed framework and Flask is meant to be more lightweight. Regardless i'm excited to learn more about React and Django when we get there.
+
+### Find one emerging JavaScript tool that you would like to learn more about or use in your final project.
+
+    As I researched emerging Javascript tools, React seems to be the newest and most popular JavaScript tool out right now. I would like to learn about Angular as its a framework instead of library. From what i've read libraries are more in control of the workflow and Angular may get harder to debug as the project grows due to it changing the view and model based on each other. I still would think it would be fun and give me a different angle into web development.
