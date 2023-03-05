@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+
+#start {
+    height: 55vh;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translate(0px, -0px);
+    }
+
+    25% {
+        transform: translate(0px, -35px);
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+    }
+
+    75% {
+        transform: translate(0px, -15px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+#chevron {
+    height: 36vh;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+
+.zig {
+    margin-top: -3.3vh;
+    clip-path: polygon(100% 0, 100% 100%, 35% 100%, 30% 50%, 35% 0);
+    height: 50vh;
+    background-color: #001D3D;
+    z-index: -1;
+}
+
+.zag {
+    /* margin-left: 2vh; */
+    clip-path: polygon(0 0, 0 100%, 55% 100%, 60% 50%, 55% 0);
+    height: 50vh;
+    background-color: #001D3D;
+    z-index: -1;
+}
+
+/* color palette */
+/* https://coolors.co/palette/000814-001d3d-003566-ffc300-ffd60a */

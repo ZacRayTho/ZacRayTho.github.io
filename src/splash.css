@@ -1,9 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
 
 body {
-    background-color: #000814;
+    /* background-color: #001D3D; */
     color: white;
     overflow-x: hidden;
+
 }
 
 .bg-img {
@@ -65,25 +66,63 @@ hr {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
 }
 
-#about {
-    margin-top: 2vh;
-    margin-left: 2vh;
+ul {
+    list-style-type: none;
 }
 
+#about {
+    background: linear-gradient(180deg, #000814, #003566);
+}
+
+.row {
+    padding-top: 2vh;
+    margin: 0px;
+}
+
+
 .zig {
-    margin-top: -3.3vh;
-    clip-path: polygon(100% 0, 100% 100%, 35% 100%, 30% 50%, 35% 0);
+    padding: 0px;
+    clip-path: polygon(100% 0, 100% 100%, 10% 100%, 0% 50%, 10% 0);
     height: 50vh;
-    background-color: #001D3D;
-    z-index: -1;
+    background-color: #FFC300;
+
+}
+
+
+.zig>div {
+    padding-left: 3vw;
+    background-color: #003566;
+    position: relative;
+
+    /* equal to border thickness */
+    width: 98%;
+    /* container height - (border thickness * 2) */
+    height: 98%;
+    /* container height - (border thickness * 2) */
+    clip-path: polygon(100% 0, 100% 100%, 10% 100%, 0% 50%, 10% 0);
+
 }
 
 .zag {
-    margin-left: 2vh;
-    clip-path: polygon(0 0, 0 100%, 55% 100%, 60% 50%, 55% 0);
+    padding: 0px;
+    clip-path: polygon(0 0, 0 100%, 90% 100%, 100% 50%, 90% 0);
     height: 50vh;
-    background-color: #001D3D;
-    z-index: -1;
+    background-color: #FFC300;
+
+}
+
+.zag>div {
+    padding-right: 3vw;
+    background-color: #000814;
+    position: relative;
+
+    /* equal to border thickness */
+    width: 98%;
+    /* container height - (border thickness * 2) */
+    height: 98%;
+    /* container height - (border thickness * 2) */
+    clip-path: polygon(0 0, 0 100%, 90% 100%, 100% 50%, 90% 0);
+
 }
 
 /* color palette */
