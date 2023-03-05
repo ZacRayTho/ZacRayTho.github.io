@@ -1,7 +1,7 @@
 function BlogTease() {
   return (
     <div className="d-flex justify-content-center">
-      <div className="border border-light border-5 rounded container-sm bg-dark">
+      <div className=" container-sm">
         <div className="row">
           <div
             className="card col-lg-3 col-md-4 col-sm-6 mb-4 mx-auto"
@@ -106,7 +106,8 @@ function BlogTease() {
           >
             <div className="card-body">
               <h5 className="card-title">React Intro</h5>
-              <p className="card-text">Coming Soon to a blog near you!</p>
+              <p className="card-text">I think JavaScript Libraries at first are hard to use because they introduce new things and new ways to
+                            do things that were previously impossible. Having one week...</p>
               <a
                 href="https://zacraytho.github.io/blogPages/week6"
                 className="btn btn-primary card-link"

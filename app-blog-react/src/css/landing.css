@@ -35,7 +35,9 @@
 }
 
 
-.zig {
+
+
+/* .zig {
     margin-top: -3.3vh;
     clip-path: polygon(100% 0, 100% 100%, 35% 100%, 30% 50%, 35% 0);
     height: 50vh;
@@ -44,12 +46,12 @@
 }
 
 .zag {
-    /* margin-left: 2vh; */
+    /* margin-left: 2vh; 
     clip-path: polygon(0 0, 0 100%, 55% 100%, 60% 50%, 55% 0);
     height: 50vh;
     background-color: #001D3D;
     z-index: -1;
-}
+} */
 
 /* color palette */
 /* https://coolors.co/palette/000814-001d3d-003566-ffc300-ffd60a */

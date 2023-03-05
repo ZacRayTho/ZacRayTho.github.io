@@ -1,0 +1,62 @@
+ul {
+    list-style-type: none;
+}
+
+#about {
+    background: linear-gradient(180deg, #000814, #003566);
+}
+
+/* .row {
+    padding-top: 2vh;
+    margin: 0px;
+} */
+
+
+.zig {
+    padding: 0px;
+    clip-path: polygon(100% 0, 100% 100%, 5% 100%, 0% 50%, 5% 0);
+    height: 50vh;
+    /* background-color: #FFC300; */
+    background: linear-gradient(to right, rgba(255, 195, 0, 0.7), rgba(255, 195, 0, 0));
+}
+
+
+.zig>div {
+    padding-left: 3vw;
+    /* background-color: #003566; */
+    position: relative;
+
+    /* equal to border thickness */
+    width: 98%;
+    /* container height - (border thickness * 2) */
+    height: 98%;
+    /* container height - (border thickness * 2) */
+    clip-path: polygon(100% 0, 100% 100%, 5% 100%, 0% 50%, 5% 0);
+
+}
+
+.zag {
+    padding: 0px;
+    clip-path: polygon(0 0, 0 100%, 95% 100%, 100% 50%, 95% 0);
+    height: 50vh;
+    /* background-color: #FFC300; */
+    background: linear-gradient(to left, rgba(255, 195, 0, 0.7), rgba(255, 195, 0, 0));
+
+}
+
+.zag>div {
+    padding-right: 3vw;
+    /* background-color: #000814; */
+    position: relative;
+
+    /* equal to border thickness */
+    width: 98%;
+    /* container height - (border thickness * 2) */
+    height: 98%;
+    /* container height - (border thickness * 2) */
+    clip-path: polygon(0 0, 0 100%, 95% 100%, 100% 50%, 95% 0);
+
+}
+
+/* color palette */
+/* https://coolors.co/palette/000814-001d3d-003566-ffc300-ffd60a */

@@ -1,4 +1,10 @@
-function Nav() {
+function Nav(props) {
+    const { setView } = props;
+
+    function handleClick(page) {
+        setView( page )
+    }
+
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-dark">
@@ -18,33 +24,35 @@ function Nav() {
                         <ul className="navbar-nav ">
                             <li className="nav-item mx-3 ">
                                 {/* change below href to scroll down page to about section */}
-                                <a className="nav-link" href="https://zacraytho.github.io/">
+                                <button
+                                    className="nav-link bg-transparent border-0"
+                                    onClick={() => handleClick("About")}>
                                     About
-                                </a>
+                                </button>
                             </li>
                             <li className="nav-item mx-3">
-                                <a
-                                    className="nav-link"
-                                    href="https://zacraytho.github.io/public/blog-teasers"
+                                <button
+                                    className="nav-link bg-transparent border-0"
+                                    onClick={() => handleClick("Blog")}
                                 >
                                     Blog
-                                </a>
+                                </button>
                             </li>
                             <li className="nav-item mx-3">
-                                <a
-                                    className="nav-link"
-                                    href="https://zacraytho.github.io/public/contact-card"
+                                <button
+                                    className="nav-link bg-transparent border-0"
+                                    onClick={() => handleClick("Contact")}
                                 >
                                     Contact
-                                </a>
+                                </button>
                             </li>
                             <li className="nav-item mx-3">
-                                <a
-                                    className="nav-link"
-                                    href="https://zacraytho.github.io/public/project-teasers"
+                                <button
+                                    className="nav-link bg-transparent border-0"
+                                    onClick={() => handleClick("Projects")}
                                 >
                                     Projects
-                                </a>
+                                </button>
                             </li>
                         </ul>
                     </div>

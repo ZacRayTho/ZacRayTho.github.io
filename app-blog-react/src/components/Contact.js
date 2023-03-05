@@ -1,16 +1,15 @@
+import "../css/contact.css"
+
 function Contact() {
   return (
 
-    <div className="container ">
-      <div className="row vh-100 justify-content-center align-content-center">
-        <div className="col-12 text-center">
-          <h1>Contact Card</h1>
-        </div>
+    <div className="container " id="contactCard">
+      <div className="row justify-content-center align-content-center">
         {/* card container */}
         <div
           className="col-12 border bg-image "
           style={{
-            backgroundImage: "url(../img/contactStuff/card-background.jpg)",
+            backgroundImage: "url(./img/contactStuff/card-background.jpg)",
             height: "13.5em",
             width: "30em",
             color: "aliceblue",
@@ -26,6 +25,7 @@ function Contact() {
                 id="me"
                 className="rounded-circle"
                 alt="..."
+                style={{ width: "8em", height: "10em", maxHeight: "fit-content" }}
               />
             </div>
             {/* col for right side with header and icons */}
@@ -39,27 +39,27 @@ function Contact() {
                 <div className="col-6 d-flex justify-content-center ">
                   <a
                     href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=zacraytho@gmail.com&tf=1"
-                    target="_blank" rel="noreferrer" 
+                    target="_blank" rel="noreferrer"
                   >
-                    <img src="../img/contactStuff/email.svg" alt="Email Icon"/>
+                    <img className="hover-grow" src="../img/contactStuff/email.svg" alt="Email Icon" style={{ width: "3em", maxHeight: "3.1em", margin: 5 }}/>
                   </a>
                 </div>
                 <div className="col-6 d-flex justify-content-center ">
                   <a href="https://github.com/ZacRayTho" target="_blank" rel="noreferrer" >
-                    <img src="../img/contactStuff/github.svg" alt="Github Logo"/>
+                    <img className="hover-grow" src="../img/contactStuff/github.svg" alt="Github Logo" style={{ width: "3em", maxHeight: "3.1em", margin: 5 }} />
                   </a>
                 </div>
                 <div className="col-6 d-flex justify-content-center ">
                   <a href="tel:8593190903">
-                    <img src="../img/contactStuff/phone.svg" alt="Phone Icon"/>
+                    <img className="hover-grow" src="../img/contactStuff/phone.svg" alt="Phone Icon" style={{ width: "3em", maxHeight: "3.1em", margin: 5 }}/>
                   </a>
                 </div>
                 <div className="col-6 d-flex justify-content-center ">
                   <a
                     href="https://www.linkedin.com/in/zachary-thomas-33b430264/"
-                    target="_blank" rel="noreferrer" 
+                    target="_blank" rel="noreferrer"
                   >
-                    <img src="../img/contactStuff/linkedin.svg" alt="LinkedIn Logo" />
+                    <img className="hover-grow" src="../img/contactStuff/linkedin.svg" alt="LinkedIn Logo" style={{ width: "3em", maxHeight: "3.1em", margin: 5 }}/>
                   </a>
                 </div>
               </div>
