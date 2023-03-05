@@ -8,13 +8,12 @@ import { useState } from "react"
 
 
 function App() {
+
   const [view, setView] = useState("About");
-
-
-
 
   function change() {
     switch (view) {
+
       default:
       case "About":
         return (
@@ -25,7 +24,8 @@ function App() {
             <About />
           </>
         )
-      case "Blog":
+
+      case "BlogTease":
         return (
           <>
             {/* <img className="blog-img container-fluid px-0 mb-0 h-100" src="./img/royalBlue.png" alt="background"></img> */}
@@ -35,6 +35,7 @@ function App() {
             </div>
           </>
         )
+
       case "Contact":
         return (
           <>
@@ -44,6 +45,7 @@ function App() {
             <About />
           </>
         )
+
       case "Projects":
         return (
           <>
@@ -53,6 +55,17 @@ function App() {
             </div>
           </>
         )
+
+      case "Blog":
+        return (
+          <>
+            <div className="blog-img">
+              <Nav setView={setView} />
+              <FullBlog />
+            </div>
+          </>
+        )
+
     }
   }
 

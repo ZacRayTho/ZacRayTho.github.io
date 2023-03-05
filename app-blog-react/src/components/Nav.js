@@ -33,9 +33,9 @@ function Nav(props) {
                             <li className="nav-item mx-3">
                                 <button
                                     className="nav-link bg-transparent border-0"
-                                    onClick={() => handleClick("Blog")}
+                                    onClick={() => handleClick("BlogTease")}
                                 >
-                                    Blog
+                                    Blogs
                                 </button>
                             </li>
                             <li className="nav-item mx-3">
