@@ -19,11 +19,11 @@ function Contact() {
           {/* row to split my pic from icons and title */}
           <div className="row " style={{ height: "fit-content" }}>
             {/* col for my pic */}
-            <div className="col-4 d-flex justify-content-center align-items-center">
+            <div className="col-4 d-flex justify-content-center align-items-center p-0">
               <img
                 src="../img/Melol.jpg"
                 id="me"
-                className="rounded-circle"
+                className="rounded-circle w-auto h-auto mw-100 mh-100"
                 alt="..."
                 style={{ width: "8em", height: "10em", maxHeight: "fit-content" }}
               />

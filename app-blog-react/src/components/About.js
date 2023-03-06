@@ -5,10 +5,10 @@ function About() {
     
     return (
         <div id="about">
-  <div className="row" style={{ paddingTop: "2vh", margin: 0 }}>
-    <div className="col text-center align-items-center d-flex"><Contact /></div>
-    <div className="zig col-lg-8 col-12 d-flex justify-content-center align-items-center">
-      <div style={{ textAlign: "center" }}>
+  <div className="row " style={{ paddingTop: "2vh", margin: 0 }}>
+    <div className="col text-center align-items-center d-flex  "><Contact /></div>
+    <div className="zig col-lg-8 col-12 d-flex justify-content-center align-items-center h-auto">
+      <div className="text-center">
         <h2>About Me</h2>
         <p>
           Hey! I'm Zach, and this is my wonderful blog.
@@ -33,8 +33,8 @@ function About() {
     </div>
   </div>
   <div className="row" style={{ paddingTop: "2vh", margin: 0, paddingBottom: "2vh" }}>
-    <div className="zag col-lg-8 col-12 d-flex justify-content-center align-items-center">
-      <div style={{ textAlign: "center" }}>
+    <div className="zag col-lg-8 col-12 d-flex justify-content-center align-items-center h-auto">
+      <div className="text-center">
         <h2>Toolbelt</h2>
         <p> I'm currently proficient with:</p>
         <dl>

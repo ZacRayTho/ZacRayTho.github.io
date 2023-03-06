@@ -3,11 +3,12 @@ body {
 }
 
 .bg-img {
-    object-fit: cover;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
+    background-image: url("./splash-bg.jpg");
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 .card-text,
