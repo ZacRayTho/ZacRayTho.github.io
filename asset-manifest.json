@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4e54b0a5.css",
+    "main.js": "/static/js/main.53d256d0.js",
+    "static/media/royalBlue.png": "/static/media/royalBlue.2e8f172090c31b1f6b62.png",
+    "index.html": "/index.html",
+    "main.4e54b0a5.css.map": "/static/css/main.4e54b0a5.css.map",
+    "main.53d256d0.js.map": "/static/js/main.53d256d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e54b0a5.css",
+    "static/js/main.53d256d0.js"
+  ]
+}
