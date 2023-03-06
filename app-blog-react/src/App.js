@@ -30,7 +30,7 @@ function App() {
         return (
           <>
             {/* <img className="blog-img container-fluid px-0 mb-0 h-100" src="./img/royalBlue.png" alt="background"></img> */}
-            <div className="blog-img">
+            <div className="blog-img h-auto">
               <Nav setView={setView} />
               <BlogTease setView={setView} setBlog={setBlog}/>
             </div>
@@ -50,7 +50,7 @@ function App() {
       case "Projects":
         return (
           <>
-            <div className="blog-img vh-100">
+            <div className="blog-img h-auto">
               <Nav setView={setView} />
               <Projects />
             </div>
@@ -60,7 +60,7 @@ function App() {
       case "Blog":
         return (
           <>
-            <div className="blog-img vh-100">
+            <div className="blog-img h-auto min-vh-100">
               <Nav setView={setView} />
               <FullBlog blog={blog} setBlog={setBlog}/>
             </div>

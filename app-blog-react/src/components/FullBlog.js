@@ -68,9 +68,9 @@ function FullBlog(props) {
         <p>
           {blogRay[blog].fourth}
         </p>
-        <div className="justify-content-between d-flex">
-        <button className="btn btn-dark border border-1 border-primary" onClick={() => handleClick("-")}>Last Blog</button>
-        <button className="btn btn-dark border border-1 border-primary" onClick={() => handleClick("+")}>Next Blog</button>
+        <div className="justify-content-between d-flex mb-2">
+        <button className="btn btn-secondary" onClick={() => handleClick("-")}>Last Blog</button>
+        <button className="btn btn-secondary" onClick={() => handleClick("+")}>Next Blog</button>
         </div>
       </div>
     </div>

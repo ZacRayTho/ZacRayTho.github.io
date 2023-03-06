@@ -21,7 +21,7 @@ function BlogTease(props) {
   ]
 
   return (
-    <div className="d-flex justify-content-center" >
+    <div className="d-flex justify-content-center h-100" >
       <div className=" container-sm">
         <div className="row">
 
