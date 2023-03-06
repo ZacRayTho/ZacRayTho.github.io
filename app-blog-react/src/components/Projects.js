@@ -30,7 +30,8 @@ function Projects() {
             img={content[index].img}
             modal={content[index].modal}
             projectLink={content[index].projectLink}
-            githubLink={content[index].githubLink} />)}
+            githubLink={content[index].githubLink} 
+            key={index} />)}
 
         </div>
       </div>

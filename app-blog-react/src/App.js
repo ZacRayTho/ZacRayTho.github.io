@@ -4,13 +4,31 @@ import About from "./components/About"
 import BlogTease from "./components/BlogTease"
 import FullBlog from "./components/FullBlog"
 import Projects from "./components/Projects"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 
 function App() {
 
-  const [view, setView] = useState("About");
-  const [blog, setBlog] = useState(-1)
+  const [view, setView] = useState(() => {
+    return JSON.parse(localStorage.getItem("view")) || "About"
+  });
+  const [blog, setBlog] = useState(() => {
+    return JSON.parse(localStorage.getItem("blog")) || 0
+  })
+
+  // useEffect(() => {
+  //   const view = JSON.parse(localStorage.getItem('view'));
+  //   // const blog = JSON.parse(localStorage.getItem('blog'));
+  //   if (view) {
+  //    setView(view);
+  //   //  setBlog(blog)
+  //   }
+  // }, []);
+
+  useEffect(() => {
+    localStorage.setItem('view', JSON.stringify(view));
+    localStorage.setItem('blog', JSON.stringify(blog));
+  }, [view, blog]);
 
   function change() {
     switch (view) {
