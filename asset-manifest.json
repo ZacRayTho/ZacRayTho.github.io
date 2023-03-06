@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e54b0a5.css",
-    "main.js": "/static/js/main.53d256d0.js",
+    "main.css": "/static/css/main.cc1b59fa.css",
+    "main.js": "/static/js/main.04956e84.js",
     "static/media/royalBlue.png": "/static/media/royalBlue.2e8f172090c31b1f6b62.png",
+    "static/media/splash-bg.jpg": "/static/media/splash-bg.a2e3ef5fef2cddde8f27.jpg",
     "index.html": "/index.html",
-    "main.4e54b0a5.css.map": "/static/css/main.4e54b0a5.css.map",
-    "main.53d256d0.js.map": "/static/js/main.53d256d0.js.map"
+    "main.cc1b59fa.css.map": "/static/css/main.cc1b59fa.css.map",
+    "main.04956e84.js.map": "/static/js/main.04956e84.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e54b0a5.css",
-    "static/js/main.53d256d0.js"
+    "static/css/main.cc1b59fa.css",
+    "static/js/main.04956e84.js"
   ]
 }
