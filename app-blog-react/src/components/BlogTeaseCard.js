@@ -1,5 +1,10 @@
 function BlogTeaseCard(props) {
-    const { title, body, link} = props;
+    const { setBlog, setView, title, body, link} = props;
+
+    function handleClick() {
+        setView("Blog")
+        setBlog(link)
+    }
 
     return (
         <>
@@ -12,12 +17,12 @@ function BlogTeaseCard(props) {
                     <p className="card-text">
                         {body}
                     </p>
-                    <a
-                        href={link}
+                    <button
+                        onClick={handleClick}
                         className="btn btn-primary card-link"
                     >
                         Read Full Post
-                    </a>
+                    </button>
                 </div>
             </div>
         </>

@@ -45,3 +45,15 @@ h1 {
     font-family: 'Kaushan Script', sans-serif;
     font-size: 11vh;
 }
+
+aside {
+    float: right;
+}
+
+#box>p {
+    font-size: 1.3em;
+}
+
+#box {
+    height:fit-content;
+}
