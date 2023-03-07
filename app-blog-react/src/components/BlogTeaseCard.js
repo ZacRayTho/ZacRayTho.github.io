@@ -1,5 +1,7 @@
+import { NavLink } from "react-router-dom";
+
 function BlogTeaseCard(props) {
-    const { setBlog, setView, title, body, link} = props;
+    const { setBlog, setView, title, body, link } = props;
 
     function handleClick() {
         setView("Blog")
@@ -17,12 +19,14 @@ function BlogTeaseCard(props) {
                     <p className="card-text">
                         {body}
                     </p>
-                    <button
-                        onClick={handleClick}
-                        className="btn btn-primary card-link"
-                    >
-                        Read Full Post
-                    </button>
+                    <NavLink className={"text-decoration-none"} to="/fullBlog">
+                        <button
+                            onClick={handleClick}
+                            className="btn btn-primary card-link"
+                        >
+                            Read Full Post
+                        </button>
+                    </NavLink>
                 </div>
             </div>
         </>
