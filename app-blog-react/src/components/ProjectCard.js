@@ -4,21 +4,21 @@ function ProjectCard(props) {
     return (
         <>
             <div
-                className="card col-lg-3 col-md-4 col-sm-6 mb-4 mx-auto"
+                className="card border border-secondary bg-light  border-4 col-lg-3 col-md-4 col-sm-6 mb-4 mx-auto"
                 style={{ width: "18rem" }}
             >
                 <div className="card-body text-center">
-                    <h5 className="card-title">{title}</h5>
+                    <h5 className="card-title ">{title}</h5>
                     <div className="card-text ">
                         <img
                             alt={imgAlt}
-                            className="border"
+                            className="border rounded"
                             id="project-teaser"
                             src={img}
                         />
                         <button
                             type="button"
-                            className="btn btn-primary"
+                            className="btn btn-primary mt-1"
                             data-bs-toggle="modal"
                             data-bs-target={"#" + id}
                         >
@@ -73,7 +73,7 @@ function ProjectCard(props) {
                     </div>
                     <a
                         href={projectLink}
-                        className="btn btn-primary card-link"
+                        className="btn btn-primary mt-1 card-link"
                     >
                         Check it out!
                     </a>

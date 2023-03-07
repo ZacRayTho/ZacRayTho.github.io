@@ -15,15 +15,7 @@ function App() {
   const [blog, setBlog] = useState(() => {
     return JSON.parse(localStorage.getItem("blog")) || 0
   })
-
-  // useEffect(() => {
-  //   const view = JSON.parse(localStorage.getItem('view'));
-  //   // const blog = JSON.parse(localStorage.getItem('blog'));
-  //   if (view) {
-  //    setView(view);
-  //   //  setBlog(blog)
-  //   }
-  // }, []);
+ 
 
   useEffect(() => {
     localStorage.setItem('view', JSON.stringify(view));
