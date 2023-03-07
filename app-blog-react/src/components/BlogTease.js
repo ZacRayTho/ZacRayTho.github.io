@@ -1,7 +1,7 @@
 import BlogTeaseCard from "./BlogTeaseCard"
 
 function BlogTease(props) {
-  const { setView, setBlog } = props;
+  const { setView, setBlog, blog } = props;
 
   const blogs = [
     { title: "Week 1 Onboarding", body: "Week one wasn't what I expected, its been slower and not as code oriented as I would think. Although I admit, I didn't even know what a version control system was...", link: 0 }
@@ -25,7 +25,7 @@ function BlogTease(props) {
       <div className=" container-sm">
         <div className="row">
 
-          {blogs.map((aBlog, index) => <BlogTeaseCard setBlog={setBlog} setView={setView} key={index}
+          {blogs.map((aBlog, index) => <BlogTeaseCard setBlog={setBlog} setView={setView} blog={blog} key={index}
             title={blogs[index].title} body={blogs[index].body} link={blogs[index].link}
           />
           )

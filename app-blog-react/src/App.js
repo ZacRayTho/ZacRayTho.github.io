@@ -101,9 +101,9 @@ function App() {
             </div></>}></Route>
 
           <Route path="/blogTease" element={
-            <div className="blog-img h-auto">
+            <div className="blog-img h-auto min-vh-100">
               <Nav setView={setView} />
-              <BlogTease setView={setView} setBlog={setBlog} />
+              <BlogTease setView={setView} setBlog={setBlog} blog={blog} />
             </div>}></Route>
 
           <Route path="/contact" element={<>
@@ -115,17 +115,17 @@ function App() {
           </>}></Route>
 
           <Route path="/projects" element={
-            <div className="blog-img h-auto">
+            <div className="blog-img h-auto min-vh-100">
               <Nav setView={setView} />
               <Projects />
             </div>}></Route>
 
-          <Route path="/fullBlog" element={
+          <Route path="/fullBlog/:blog" element={
             <div className="blog-img h-auto min-vh-100">
               <Nav setView={setView} />
               <FullBlog blog={blog} setBlog={setBlog} />
             </div>}></Route>
-            
+
         </Routes>
       </Router>
     </div>
