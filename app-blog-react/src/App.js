@@ -5,7 +5,7 @@ import BlogTease from "./components/BlogTease"
 import FullBlog from "./components/FullBlog"
 import Projects from "./components/Projects"
 import { useState, useEffect } from "react"
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
 
@@ -86,6 +86,13 @@ function App() {
     setTimeout(() => window.scrollTo(0, 1080), 100)
   }
 
+  const blogs = [];
+  for (let i = 0; i < 14; i++) {
+    blogs.push(i)
+  }
+  console.log(blogs)
+
+
   return (
     <div className="App">
 
@@ -120,11 +127,20 @@ function App() {
               <Projects />
             </div>}></Route>
 
-          <Route path="/fullBlog/:blog" element={
-            <div className="blog-img h-auto min-vh-100">
-              <Nav setView={setView} />
-              <FullBlog blog={blog} setBlog={setBlog} />
-            </div>}></Route>
+          {blogs.map((items, index) => {
+
+            return (
+              
+                <Route key={index} path={`/fullBlog/${items}`} element={
+                  <div className="blog-img h-auto min-vh-100">
+                    <Nav setView={setView} />
+                    <FullBlog blog={blog} setBlog={setBlog} />
+                  </div>}>
+                </Route>
+              )
+          }
+          )}
+
 
         </Routes>
       </Router>
