@@ -1,8 +1,10 @@
+import { NavLink } from "react-router-dom";
+
 function Nav(props) {
     const { setView } = props;
 
     function handleClick(page) {
-        setView( page )
+        setView(page)
     }
 
     return (
@@ -24,35 +26,43 @@ function Nav(props) {
                         <ul className="navbar-nav ">
                             <li className="nav-item mx-3 ">
                                 {/* change below href to scroll down page to about section */}
-                                <button
-                                    className="nav-link bg-transparent border-0"
-                                    onClick={() => handleClick("About")}>
-                                    About
-                                </button>
+                                <NavLink className={"text-decoration-none"} to="/">
+                                    <button
+                                        className="nav-link bg-transparent border-0 "
+                                        onClick={() => handleClick("About")}>
+                                        About
+                                    </button>
+                                </NavLink>
                             </li>
                             <li className="nav-item mx-3">
-                                <button
-                                    className="nav-link bg-transparent border-0"
-                                    onClick={() => handleClick("BlogTease")}
-                                >
-                                    Blogs
-                                </button>
+                                <NavLink className={"text-decoration-none"} to="/blogTease">
+                                    <button
+                                        className="nav-link bg-transparent border-0"
+                                        onClick={() => handleClick("BlogTease")}
+                                    >
+                                        Blogs
+                                    </button>
+                                </NavLink>
                             </li>
                             <li className="nav-item mx-3">
-                                <button
-                                    className="nav-link bg-transparent border-0"
-                                    onClick={() => handleClick("Contact")}
-                                >
-                                    Contact
-                                </button>
+                                <NavLink className={"text-decoration-none"} to="/contact">
+                                    <button
+                                        className="nav-link bg-transparent border-0"
+                                        onClick={() => handleClick("Contact")}
+                                    >
+                                        Contact
+                                    </button>
+                                </NavLink>
                             </li>
                             <li className="nav-item mx-3">
-                                <button
-                                    className="nav-link bg-transparent border-0"
-                                    onClick={() => handleClick("Projects")}
-                                >
-                                    Projects
-                                </button>
+                                <NavLink className={"text-decoration-none"} to="/projects">
+                                    <button
+                                        className="nav-link bg-transparent border-0"
+                                        onClick={() => handleClick("Projects")}
+                                    >
+                                        Projects
+                                    </button>
+                                </NavLink>
                             </li>
                         </ul>
                     </div>
