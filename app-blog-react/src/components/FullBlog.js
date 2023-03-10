@@ -1,14 +1,9 @@
-import { NavLink, useLocation, useNavigate } from "react-router-dom";
-import { useEffect } from "react";
+
 
 function FullBlog(props) {
   const { blog, setBlog } = props;
-  const location = useLocation();
-  const navigate = useNavigate();
-  // let x = location.pathname.split("")
-  // window.onhashchange(setBlog(x[location.pathname.length - 1]))
 
-  
+
   const blogRay = [
     { header: "The First Week", date: "1-31-2023", asideClass: "w-25 h-50", img: "../img/contactStuff/github.svg", imgAlt: "Github Icon", first: "Week one wasn't what I expected, its been slower and not as code oriented as I would think. Although I admit, I didn't even know what a version control system was, but after git's introduction I can absolutely understand the importance of it. I would hate to have to manual revert a big chunk of code after I found out it was buggy or unusable. I also appreciate the slow intro into everything instead of jumping off on the deep end.", second: "I'm eager to learn more about coding, and just learn in general. I think learning is some of the most fun possible with the right subject, teacher, and environment. I would say that this bootcamp has all of that and more. Personally I can't wait to learn about all the different languages we're gonna use and about their ins and outs, and why some are better at certain tasks more than others.", third: "I get sporadic bursts of interests in things, like learning to solve a rubik's cube or flip a butterfly knife. But some interests don't stick so when I picked up coding as an interest and found this bootcamp, I was unsure if I would stick with it. That's why I took the Intro to Web course and did other various online courses for probably 6 months leading up to applying for the bootcamp." },
     { header: "Second Week of Onboarding", date: "2-6-2023", asideClass: "w-50 ", img: "../img/html-css-js-logos.png", imgAlt: "HTML, CSS, and Javascript Logos", first: "HTML/CSS/JS each play an important role in the whole UX process. While we could write everything in pure HTML that wouldn't be a pleasant experience and I believe the internet would be a way less interesting place if every site looked and behaved exactly the same. No one wants to go a site that looks like its been around since the dawn of computers.", second: "I understand the importance of pseudocoding, its a high level interpretation of code that anyone should be able to read and understand. Its suppose to lay out the foundation for all the coding in the rest of the project. This helps work through the logic of the problems at hand thoroughly so when we start coding, we only need to worry about the syntax which will be super easy as we work more with each language.", third: "Onboarding remotely was definitely different from a traditional classroom setting because there was no teacher directly in front of me to ask questions to, and because I was on a computer anyways I felt more inclined to google my questions before reaching out in the help channel. Even though I didn't use The help channel this week, seeing other peoples having similar problems made me feel like I wasn't totally off the path that was laid out. Also seeing other peoples projects was nice, because I could get ideas from them and take pieces from their code to fix problems in mine." },
@@ -26,9 +21,6 @@ function FullBlog(props) {
     { header: "a", date: "a", asideClass: "a", img: "a", imgAlt: "a", first: "a", second: "a", third: "a" }
   ];
 
-  // useEffect(() => {
-     
-  // }, [location.pathname])
 
   function handleClick(symbol) {
     switch (symbol) {
@@ -78,12 +70,12 @@ function FullBlog(props) {
           {blogRay[blog].fourth}
         </p>
         <div className="justify-content-between d-flex mb-2">
-          <NavLink className={"text-decoration-none"} to={`/fullBlog/${blog - 1}`}>
-            <button className="btn btn-secondary" onClick={() => handleClick("-")}>Last Blog</button>
-          </NavLink>
-          <NavLink className={"text-decoration-none"} to={`/fullBlog/${blog + 1}`}>
-            <button className="btn btn-secondary" onClick={() => handleClick("+")}>Next Blog</button>
-          </NavLink>
+
+          <button className="btn btn-secondary" onClick={() => handleClick("-")}>Last Blog</button>
+
+
+          <button className="btn btn-secondary" onClick={() => handleClick("+")}>Next Blog</button>
+
         </div>
       </div>
     </div>
