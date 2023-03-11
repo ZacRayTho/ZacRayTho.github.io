@@ -1,10 +1,14 @@
 import "../css/landing.css"
-// import { HashLink as Link } from 'react-router-hash-link';
-import { NavLink } from "react-router-dom";
+
 function Landing() {
+
+  function handleClick() {
+    console.log("clicked")
+    window.scroll({top: window.screen.height})
+  }
+
   return (
-    <>   
-      
+    <>
       <div id="start" className="row align-items-end m-auto">
         <div className="col-12">
           <div className="ms-5 ">
@@ -15,12 +19,11 @@ function Landing() {
         </div>
       </div>
       <div id="chevron" className="d-flex justify-content-center align-items-end ">
-        <NavLink className={"text-decoration-none"} to="/#about">
-          <img src={"../img/chevron.svg"} alt="Chevron Down" />
-        </NavLink>
+          <button id="downWeGo" onClick={handleClick} className="btn btn-transparent border-transparent">
+            <img src={"../img/chevron.svg"} alt="Chevron Down" />
+          </button>
       </div>
     </>
-
   )
 }
 

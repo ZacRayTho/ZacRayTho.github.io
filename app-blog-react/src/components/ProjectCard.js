@@ -12,7 +12,7 @@ function ProjectCard(props) {
                     <div className="card-text ">
                         <img
                             alt={imgAlt}
-                            className="border rounded img-fluid"
+                            className="border rounded mw-100"
                             id="project-teaser"
                             src={img}
                         />

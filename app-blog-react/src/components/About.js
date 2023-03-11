@@ -49,7 +49,7 @@ function About() {
         </dl>
       </div>
     </div>
-    <div className="col text-center">Figure something to put here</div>
+    <div className="d-flex col justify-content-center align-items-center"><img className="h-50" src="./img/zt-logo.png" alt="ZT Logo" /></div>
   </div>
 </div>
 
