@@ -1,6 +1,6 @@
 import "../css/landing.css"
-import { HashLink as Link } from 'react-router-hash-link';
-
+// import { HashLink as Link } from 'react-router-hash-link';
+import { NavLink } from "react-router-dom";
 function Landing() {
   return (
     <>   
@@ -15,9 +15,9 @@ function Landing() {
         </div>
       </div>
       <div id="chevron" className="d-flex justify-content-center align-items-end ">
-        <Link to="/#about">
+        <NavLink className={"text-decoration-none"} to="/#about">
           <img src={"../img/chevron.svg"} alt="Chevron Down" />
-        </Link>
+        </NavLink>
       </div>
     </>
 
