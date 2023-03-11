@@ -1,4 +1,5 @@
 import "../css/landing.css"
+import { HashLink as Link } from 'react-router-hash-link';
 
 function Landing() {
   return (
@@ -14,9 +15,9 @@ function Landing() {
         </div>
       </div>
       <div id="chevron" className="d-flex justify-content-center align-items-end ">
-        <a href="#about">
+        <Link to="/#about">
           <img src={"../img/chevron.svg"} alt="Chevron Down" />
-        </a>
+        </Link>
       </div>
     </>
 

@@ -45,7 +45,7 @@ function Nav(props) {
                                 </NavLink>
                             </li>
                             <li className="nav-item mx-3">
-                                <NavLink className={"text-decoration-none"} to="/contact">
+                                <NavLink className={"text-decoration-none"} to="/#about">
                                     <button
                                         className="nav-link bg-transparent border-0"
                                         onClick={() => handleClick("Contact")}

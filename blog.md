@@ -165,4 +165,29 @@
     right now. I would like to learn about Angular as its a framework instead of library. From what i've read   
     libraries are more in control of the workflow and Angular may get harder to debug as the project grows due to   
     it changing the view and model based on each other. I still would think it would be fun and give me a different   
-    angle into web development.  
+    angle into web development. 
+
+## Week 7
+## 3-10-23 Sprint 5 React 2.0
+
+### What have you learned about CLIs? Do you think they are scary?
+
+    I've learned that CLI's are the original way people had to operate computers,before GUIs and mouses took over.    
+    I think to the uninformed they are, because you don't know what to say, what the computer can understand or what it expects from you.   
+    I would say after some time with them (learning Git commands and navigating files with just CLI), they aren't scary and they actually 
+    improve speed, because as you learn more commands and get more familiar with them, you have to take your hands away from the keyboard less.
+    Navigating GUIs are inherently slower but more user friendly.
+
+### If your were to build a CLI, what would it do?
+
+    If I were to build a CLI, it would probably just have more simple shortcuts for common things, like a shorthand that `git add .` `git commit`    
+    and `git push`. because each of those individually takes time. Or maybe add a command that starts an old text-adventure based RPG for some      
+    cognitive breaks.
+
+### List some ideas that without a Framework, would take you a long time to code
+
+    Creating a big website with multiple pages, like wikipedia. Having seperate pages for each files also contains a ton of copy and pasted code    
+    which if 2 pages shared info retaining to would mean more hard code that would need to be found and then changed. Styling would also be way more involved     
+    without a framework like bootstrap, considering how deep CSS itself is, just trying to find something that Bootstrap doesn't make easy to use is a    
+    involved process.
+

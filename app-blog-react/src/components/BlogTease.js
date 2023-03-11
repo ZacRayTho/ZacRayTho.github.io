@@ -10,7 +10,7 @@ function BlogTease(props) {
     , { title: "VanillaJS", body: "You can't have everything right when you want it ,and you can't always expect to get back the results you want. thats how APIs work,you have to program accordingly so as not to hinder the User experience by...", link: 3 }
     , { title: "Technical Article", body: "The most basic definition of pseudocode to me, is a high level 'coding language'. A more in depth definition would be, pseudocode is...", link: 4 }
     , { title: "React Intro", body: "I think JavaScript Libraries at first are hard to use because they introduce new things and new ways to do things that were previously impossible. Having one week...", link: 5 }
-    , { title: "CLI", body: "Coming Soon to a blog near you!", link: 6 }
+    , { title: "CLI", body: "I've learned that CLI's are the original way people had to operate computers,before GUIs and mouses took over. I think to the uninformed they are, because...", link: 6 }
     , { title: "Halfway!", body: "Coming Soon to a blog near you!", link: 7 }
     , { title: "Python", body: "Coming Soon to a blog near you!", link: 8 }
     , { title: "Django 1", body: "Coming Soon to a blog near you!", link: 9 }

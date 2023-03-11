@@ -45,7 +45,7 @@ function App() {
               <BlogTease setView={setView} setBlog={setBlog} />
             </div>}></Route>
 
-          <Route path="/contact" element={<>
+          <Route path="/" element={<>
             <div className="bg-img h-auto min-vh-100">
               <Nav setView={setView} />
               <Landing />
