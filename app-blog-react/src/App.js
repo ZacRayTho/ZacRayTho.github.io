@@ -1,4 +1,5 @@
 import Nav from "./components/Nav"
+import Nav2 from "./components/Nav2"
 import Landing from "./components/Landing"
 import About from "./components/About"
 import BlogTease from "./components/BlogTease"
@@ -9,9 +10,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
 
-  const [view, setView] = useState(() => {
-    return JSON.parse(localStorage.getItem("view")) || "About"
-  });
+  const [view, setView] = useState("About");
   const [blog, setBlog] = useState(() => {
     return JSON.parse(localStorage.getItem("blog")) || 0
   })
@@ -34,20 +33,20 @@ function App() {
 
           <Route path="/" element={<>
             <div className="bg-img h-auto min-vh-100">
-              <Nav setView={setView} view={view} />
+              <Nav setView={setView} />
               <Landing />
               <About />
             </div></>}></Route>
 
           <Route path="/blogTease" element={
             <div className="blog-img h-auto min-vh-100">
-              <Nav setView={setView} view={view} />
+              <Nav2 setView={setView} />
               <BlogTease setView={setView} setBlog={setBlog} />
             </div>}></Route>
 
           <Route path="/" element={<>
             <div className="bg-img h-auto min-vh-100">
-              <Nav setView={setView} view={view} />
+              <Nav setView={setView} />
               <Landing />
               <About />
             </div>
@@ -55,13 +54,13 @@ function App() {
 
           <Route path="/projects" element={
             <div className="blog-img h-auto min-vh-100">
-              <Nav setView={setView} view={view} />
+              <Nav2 setView={setView} />
               <Projects />
             </div>}></Route>
 
           <Route path="/fullBlog" element={
             <div className="blog-img h-auto min-vh-100">
-              <Nav setView={setView} view={view} />
+              <Nav2 setView={setView} />
               <FullBlog blog={blog} setBlog={setBlog} />
             </div>}>
           </Route>

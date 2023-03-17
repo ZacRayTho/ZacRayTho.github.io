@@ -1,12 +1,12 @@
 import { NavLink } from "react-router-dom";
 
-function Nav(props) {
+function Nav2(props) {
     const { setView } = props;
 
     function handleClick(page) {
         setView(page)
     }
-
+//{view == "About" || view == "Contact" ? "" : ""}
     return (
         <>
         
@@ -24,13 +24,13 @@ function Nav(props) {
                         <span className="navbar-toggler-icon" />
                     </button>
                     <div className="collapse navbar-collapse"  id="navbarNav">
-                        <ul className={"navbar-nav"}>
+                        <ul className={"navbar-nav text-center d-flex mx-auto navbar-custom"}>
                             <li className="nav-item mx-3 ">
                                 {/* change below href to scroll down page to about section */}
                                 <NavLink className={"text-decoration-none"} to="/">
                                     <button
                                         className="nav-link bg-transparent border-0 "
-                                        style={{ color:"rgba(255, 255, 255, 0.55)" }}
+                                        style={{color:"black", fontWeight: "500"}}
                                         onClick={() => handleClick("About")}>
                                         About
                                     </button>
@@ -40,7 +40,7 @@ function Nav(props) {
                                 <NavLink className={"text-decoration-none"} to="/blogTease">
                                     <button
                                         className="nav-link bg-transparent border-0"
-                                        style={{ color:"rgba(255, 255, 255, 0.55)" }}
+                                        style={{color:"black", fontWeight: "500"}}
                                         onClick={() => handleClick("BlogTease")}
                                     >
                                         Blogs
@@ -51,7 +51,7 @@ function Nav(props) {
                                 <NavLink className={"text-decoration-none"} to="/#about">
                                     <button
                                         className="nav-link bg-transparent border-0"
-                                        style={{ color:"rgba(255, 255, 255, 0.55)" }}
+                                        style={{color:"black", fontWeight: "500"}}
                                         onClick={() => handleClick("Contact")}
                                     >
                                         Contact
@@ -62,7 +62,7 @@ function Nav(props) {
                                 <NavLink className={"text-decoration-none"} to="/projects">
                                     <button
                                         className="nav-link bg-transparent border-0"
-                                        style={{ color:"rgba(255, 255, 255, 0.55)" }}
+                                        style={{color:"black", fontWeight: "500"}}
                                         onClick={() => handleClick("Projects")}
                                     >
                                         Projects
@@ -77,4 +77,4 @@ function Nav(props) {
     )
 }
 
-export default Nav;
+export default Nav2;
