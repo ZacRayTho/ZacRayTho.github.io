@@ -192,3 +192,34 @@
     and then changed. Styling would also be way more involved without a framework like bootstrap, considering how deep CSS   
     itself is, just trying to find something that Bootstrap doesn't make easy to use is a involved process.
 
+## Week 8
+## 3-10-23 Sprint 6 Halfway!
+
+### Now that you are halfway through bootcamp, what has been the biggest hurdle that you have gone past?   
+What do you think is going to be the next biggest thing to power through?
+
+    My biggest hurdle probably was stepping outside of VanillaJS, since thats where most of my prior experience was, I   
+    didn't even think about single page applications being a thing prior to React's introduction. I just assumed  
+    that every webpage had its own HTML file that a bunch a stuff of copied and pasted to each time. My next   
+    hurdle I think will be just back-end in general with no visuals to look at for immediate feedback on if something  
+    is working or not. I also definetly know the final project will be the biggest hurdle at the end of the road, as well  
+    as all the interviews I'll probably have to do before landing a career.
+
+### Compared to earlier, what are three ideas you might want to do for your final project? Are they the  
+same ideas as before, or have they changed now that you understand more about the technology and your limitations?
+
+    A safe bet for a final project would probably be an Ebay/Marketplace or other popular site clone. I don't see   
+    anything wrong with my two previous ideas of, a car dealership website , or TCGplayer clone. Although I don't
+    know if the car dealership site would use everything I'll learn by the end of the bootcamp, and thats one   
+    of the big reasons for the final project, to show off all your new skills and everything you know.
+
+### What surprised you about your first week in Python and how was it different from your first week in JavaScript? 
+
+    I've had a little prior experience with python prior to the bootcamp, since it's what pops up most frequently   
+    when you google "what coding language should I learn?". But I mostly just learned syntax and didn't really  
+    do any projects myself, mostly watched videos. I know now that video may be a important part of the learning   
+    process, but if you never code yourself, it won't stick. It was different from JS because we already knew   
+    most of the correct general syntax and functions. Its weird certain methods in JS are their own function   
+    in python like len(str) instead of str.len . Hopping into (P)OOP immediately also was different, classes
+    are something that I always knew were there but never really messed with. I can't wait to use them more next  
+    week and see how often we reuse them in the project.
