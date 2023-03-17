@@ -34,20 +34,20 @@ function App() {
 
           <Route path="/" element={<>
             <div className="bg-img h-auto min-vh-100">
-              <Nav setView={setView} />
+              <Nav setView={setView} view={view} />
               <Landing />
               <About />
             </div></>}></Route>
 
           <Route path="/blogTease" element={
             <div className="blog-img h-auto min-vh-100">
-              <Nav setView={setView} />
+              <Nav setView={setView} view={view} />
               <BlogTease setView={setView} setBlog={setBlog} />
             </div>}></Route>
 
           <Route path="/" element={<>
             <div className="bg-img h-auto min-vh-100">
-              <Nav setView={setView} />
+              <Nav setView={setView} view={view} />
               <Landing />
               <About />
             </div>
@@ -55,13 +55,13 @@ function App() {
 
           <Route path="/projects" element={
             <div className="blog-img h-auto min-vh-100">
-              <Nav setView={setView} />
+              <Nav setView={setView} view={view} />
               <Projects />
             </div>}></Route>
 
           <Route path="/fullBlog" element={
             <div className="blog-img h-auto min-vh-100">
-              <Nav setView={setView} />
+              <Nav setView={setView} view={view} />
               <FullBlog blog={blog} setBlog={setBlog} />
             </div>}>
           </Route>

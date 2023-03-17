@@ -4,8 +4,8 @@ function ProjectCard(props) {
     return (
         <>
             <div
-                className="card border border-secondary bg-light  border-4 col-lg-3 col-md-4 col-sm-6 mb-4 mx-auto"
-                style={{ width: "18rem" }}
+                className="card bg-light border-custom border-4 col-lg-3 col-md-4 col-sm-6 mb-4 mx-auto"
+                style={{ width: "18rem", backgroundColor: "aliceblue" }}
             >
                 <div className="card-body text-center">
                     <h5 className="card-title ">{title}</h5>
