@@ -11,7 +11,7 @@ function BlogTease(props) {
     , { title: "Technical Article", body: "The most basic definition of pseudocode to me, is a high level 'coding language'. A more in depth definition would be, pseudocode is...", link: 4 }
     , { title: "React Intro", body: "I think JavaScript Libraries at first are hard to use because they introduce new things and new ways to do things that were previously impossible. Having one week...", link: 5 }
     , { title: "CLI", body: "I've learned that CLI's are the original way people had to operate computers,before GUIs and mouses took over. I think to the uninformed they are, because...", link: 6 }
-    , { title: "Halfway!", body: "Coming Soon to a blog near you!", link: 7 }
+    , { title: "Halfway!", body: "My biggest hurdle probably was stepping outside of VanillaJS, since thats where most of my prior experience was, I didn't even think about single page applications being a thing prior to React's introduction...", link: 7 }
     , { title: "Python", body: "Coming Soon to a blog near you!", link: 8 }
     , { title: "Django 1", body: "Coming Soon to a blog near you!", link: 9 }
     , { title: "Django 2", body: "Coming Soon to a blog near you!", link: 10 }
