@@ -223,3 +223,26 @@ same ideas as before, or have they changed now that you understand more about th
     in python like len(str) instead of str.len . Hopping into (P)OOP immediately also was different, classes
     are something that I always knew were there but never really messed with. I can't wait to use them more next  
     week and see how often we reuse them in the project.
+
+
+### What are some similarities and differences you can see with JS and Python?
+
+    Theres a lot of similarities between JS and Python, they both have similar functions and abilities, both are  
+    pretty capable of the same stuff. Where they differ at is , Python is unable to access the DOM like JS can,   
+    and they both have there own syntax rules and formatting.
+
+### If you had started with Python instead of JS, how do you think the Bootcamp would be different? Would you have benefited?
+
+    Starting with python would have also meant starting with the backend, which I think may have been more difficult   
+    since the backend is more technical. Moving from Python to Javascript would have also been more difficult since  
+    python has much less syntax to remember besides the indentation. I like the Bootcamp's style of starting with  
+    something the hard way to get an understanding of whats happening, then introducing something else which makes  
+    it easier for us. 
+
+### Think of a project or tech based tool that you use often and think about what the database structure might look like for it. Do you feel like you have a better understanding of how it works now and could you see yourself enjoying building something like that in the future? 
+
+    Thinking about all the websites I use in a daily basis, I definitely have a better understanding of how they work  
+    and even how some databases might be structured. I don't think I would enjoy building a big database and thinking  
+    of all the queries necessary to get only a little amount of data back. I understand the importance of databases  
+    and SQL, and could probably work in depth with them if needed but its not high on my list of wants.
+
