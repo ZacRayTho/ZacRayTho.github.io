@@ -1,0 +1,50 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+
+#start {
+    height: 55vh;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translate(0px, -0px);
+    }
+
+    25% {
+        transform: translate(0px, -35px);
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+    }
+
+    75% {
+        transform: translate(0px, -15px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+#chevron {
+    height: 36vh;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+.bg-img {
+    background-image: url("../pages/css/splash-bg.jpg");
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}

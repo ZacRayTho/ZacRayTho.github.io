@@ -19,14 +19,14 @@ function BlogTeaseCard(props) {
                     <p className="card-text">
                         {body}
                     </p>
-                    <NavLink className={"text-decoration-none"} to={"/fullBlog"}>
+                    <a to="/fullBlog">
                         <button
                             onClick={handleClick}
                             className="btn btn-primary card-link"
                         >
                             Read Full Post
                         </button>
-                    </NavLink>
+                    </a>
                 </div>
             </div>
         </>
