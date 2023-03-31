@@ -3,8 +3,7 @@ import Landing from './Landing';
 
 function HomePage() {
   return (
-    <div className='flex justify-center bg-img'>
-
+    <div>
       <Landing />
     </div>
   )
