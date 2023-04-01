@@ -8,15 +8,15 @@ function Landing() {
 
   return (
     <>
-      <div className="h-screen overflow-hidden">
-        <div className="flex my-auto min-h-[73%] px-3 ">
+      <div className="h-[90vh] col-span-9 overflow-hidden md:col-span-5 lg:max-w-7xl mx-auto">
+        <div className="flex my-auto min-h-[73%] px-3 mr-52">
           <div className="my-auto">
             <h1>Zachary Thomas</h1>
             <hr className="w-[75%]" />
             <h2>Full Stack Web Developer</h2>
           </div>
         </div>
-        <div id="chevron" className="flex justify-center">
+        <div id="chevron" className="flex justify-center h-1/2">
           <button id="downWeGo" onClick={handleClick} className="btn btn-transparent border-transparent">
             <img src={"./img/chevron.svg"} alt="Chevron Down" />
           </button>

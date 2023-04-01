@@ -3,7 +3,7 @@ function Nav() {
 
   return (
     <>
-      <Navbar className="!bg-transparent"
+      <Navbar className="!bg-transparent sticky top-0 !z-0 lg:max-w-7xl mx-auto"
         fluid={true}
         rounded={true}
       >
@@ -16,22 +16,16 @@ function Nav() {
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
-          <Navbar.Link
-            href="/navbars"
-            active={true}
-          >
-            Home
-          </Navbar.Link>
-          <Navbar.Link href="/navbars">
+          <Navbar.Link className="text-white text-lg" href="/navbars">
             About
           </Navbar.Link>
-          <Navbar.Link href="/navbars">
-            Services
+          <Navbar.Link className="text-white text-lg" href="/navbars">
+            Blog
           </Navbar.Link>
-          <Navbar.Link href="/navbars">
-            Pricing
+          <Navbar.Link className="text-white text-lg" href="/navbars">
+            Projects
           </Navbar.Link>
-          <Navbar.Link href="/navbars">
+          <Navbar.Link className="text-white text-lg" href="/navbars">
             Contact
           </Navbar.Link>
         </Navbar.Collapse>

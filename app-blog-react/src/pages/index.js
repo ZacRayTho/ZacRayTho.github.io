@@ -1,10 +1,13 @@
 import Nav from '../components/Nav';
+import SideContact from '../components/SideContact';
 import Landing from './Landing';
 
 function HomePage() {
   return (
-    <div>
+    <div className='h-[80vh] grid grid-cols-9'>
+      <SideContact />
       <Landing />
+      
     </div>
   )
 }

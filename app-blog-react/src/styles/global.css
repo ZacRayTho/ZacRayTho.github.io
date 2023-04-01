@@ -30,7 +30,7 @@
 }
 
 #chevron {
-    height: 36vh;
+
     animation-name: bounce;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -114,4 +114,6 @@ aside {
 #box {
     height:fit-content;
 }
+
+
 

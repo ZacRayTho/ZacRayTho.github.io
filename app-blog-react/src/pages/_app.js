@@ -2,6 +2,7 @@
 import Head from "next/head"
 
 import Nav from "../components/Nav"
+import SideContact from "../components/SideContact"
 import "../styles/global.css"
 
 export default function MyApp({ Component, pageProps }) {
@@ -14,9 +15,8 @@ export default function MyApp({ Component, pageProps }) {
       
     </Head>
     <div className="bg-img">
-    
-      <Nav />
-      <Component {...pageProps} />
+      <Nav className="" />
+      <Component {...pageProps} className="z-0"/>
       <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
     </div>
   </>)
