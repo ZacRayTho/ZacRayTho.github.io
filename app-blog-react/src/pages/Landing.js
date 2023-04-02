@@ -1,4 +1,4 @@
-
+import About from '../components/About'
 function Landing() {
 
   function handleClick() {
@@ -8,7 +8,7 @@ function Landing() {
 
   return (
     <>
-      <div className="h-[90vh] col-span-9 overflow-hidden md:col-span-5 lg:max-w-7xl mx-auto">
+      <div className="h-[90vh] col-span-9 overflow-auto no-scrollbar scroll-smooth md:col-span-5 lg:max-w-7xl mx-auto">
         <div className="flex my-auto min-h-[73%] px-3 mr-52">
           <div className="my-auto">
             <h1>Zachary Thomas</h1>
@@ -21,7 +21,9 @@ function Landing() {
             <img src={"./img/chevron.svg"} alt="Chevron Down" />
           </button>
         </div>
+        <About />
       </div>
+     
     </>
   )
 }

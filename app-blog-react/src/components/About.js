@@ -1,5 +1,5 @@
 import Contact from "./Contact"
-import "../css/about.css"
+
 
 function About() {
     
