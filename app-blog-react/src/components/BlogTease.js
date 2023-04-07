@@ -13,11 +13,11 @@ function BlogTease(props) {
     , { title: "CLI", body: "I've learned that CLI's are the original way people had to operate computers,before GUIs and mouses took over. I think to the uninformed they are, because...", link: 6 }
     , { title: "Halfway!", body: "My biggest hurdle probably was stepping outside of VanillaJS, since thats where most of my prior experience was, I didn't even think about single page applications being a thing prior to React's introduction...", link: 7 }
     , { title: "Python", body: "Theres a lot of similarities between JS and Python, they both have similar functions and abilities, both are pretty capable of the same stuff. Where they differ at is , Python is unable to...", link: 8 }
-    , { title: "Django 1", body: "Coming Soon to a blog near you!", link: 9 }
-    , { title: "Django 2", body: "Coming Soon to a blog near you!", link: 10 }
-    , { title: "Finish line", body: "Coming Soon to a blog near you!", link: 11 }
-    , { title: "Final Project 1", body: "Coming Soon to a blog near you!", link: 12 }
-    , { title: "Final Project 2", body: "Coming Soon to a blog near you!", link: 13 }
+    , { title: "Django", body: "I think it's pretty hard to narrow what i'm struggling with the most in the tech stack. Some times I struggle with aligning front end components, other times trying... ", link: 9 }
+    , { title: "Finish line", body: "Agile development is an approach towards software development, focused more around the customer, than around the initial plans. Agile is named aptly since the whole process it covers is...", link: 10 }
+    , { title: "Final Project 1", body: "Coming Soon to a blog near you!", link: 11 }
+    , { title: "Final Project 2", body: "Coming Soon to a blog near you!", link: 12 }
+    , { title: "Etc.", body: "Coming Soon to a blog near you!", link: 13 }
   ]
 
   return (
