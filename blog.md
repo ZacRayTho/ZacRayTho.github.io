@@ -246,3 +246,27 @@ same ideas as before, or have they changed now that you understand more about th
     of all the queries necessary to get only a little amount of data back. I understand the importance of databases  
     and SQL, and could probably work in depth with them if needed but its not high on my list of wants.
 
+## Week 9
+## Django 
+
+### What are you struggling with the most in the tech stack so far and why?
+
+    I think it's pretty hard to narrow what i'm struggling with the most in the tech stack. Some times I struggle with aligning front end components, other times trying to get the specific data from queries can be a hassle. Django definitely helps with queries though and sometimes bootstrap cooperates and aligns stuff how I want.
+
+
+### After having built your first full-stack application, what things in your repertoire are a sticking point for you? What was it like connecting front and back end?
+
+    A sticking point for me is keeping up to up date with all the newest libraries and frameworks that are always revolving, and just staying constant on practicing for both ends of the stack. My first jump back into javascript from python after 2 weeks without curly brackets, It was a struggle to say to least to remember the right syntax.
+
+    Connecting the front end to the back was a more simple process then what I thought. I was not aware that APIs were able to take requests from the front end and modify the database, because I have only ever used APIs to read data from. I figured there'd be a whole separate process to send data back until I realized that Axios had methods named after all the CRUD functions.
+
+## Week 10
+## Finish Line 1
+
+### Describe Agile Development or a specific ceremony(stand up, retro, sprints)
+
+    Agile development is an approach towards software development, focused more around the customer, than around the initial plans. Agile is named aptly since the whole process it covers is agile in the way that if the plans change no matter the reason, the development should be able to pivot without nuking and paving the entire project and starting from the ground. Agile methodologies also include communication and collaboration between multiple teams who are working on separate aspects of the project.
+
+### Convince someone who does not use frameworks why using a framework is beneficial.
+
+    Frameworks are beneficial because they reduce the amount of code you need to write and in doing so also keep with DRY principles. Theres no need to reinvent the wheel, and sometimes someone has already wrote a thousand plus lines of code and even made classes, methods, and functions to make it easier for you to implement the code into your project without interfering with anything already in it.
