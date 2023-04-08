@@ -9,12 +9,12 @@ function Landing() {
 
   return (
     <>
-      <div id='fun' className="h-full  overflow-auto no-scrollbar scroll-smooth  ">
+      <div id='fun' className="h-full overflow-auto no-scrollbar scroll-smooth  ">
       <Nav />
-        <div className="flex min-h-[73%] mx-auto lg:max-w-7xl">
+        <div className="py-96">
           <div className="my-auto">
             <h1>Zachary Thomas</h1>
-            <hr className="w-[75%]" />
+            <hr className="w-[50%]" />
             <h2>Full Stack Web Developer</h2>
           </div>
         </div>

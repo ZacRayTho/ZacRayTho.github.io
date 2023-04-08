@@ -6,9 +6,10 @@ import Landing from './Landing';
 function HomePage() {
   return (
     <div className='flex mx-auto justify-center'>
-      
+
       <SideContact />
-      <Landing className=""/>
+
+      <Landing className="" />
 
     </div>
   )
