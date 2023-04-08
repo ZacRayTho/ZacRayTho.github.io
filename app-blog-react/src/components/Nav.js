@@ -3,7 +3,7 @@ function Nav() {
 
   return (
     <>
-      <Navbar className="!bg-transparent sticky top-0 !z-0 lg:max-w-7xl mx-auto"
+      <Navbar className="!bg-transparent sticky top-0 !z-10 lg:max-w-7xl mx-auto"
         fluid={true}
         rounded={true}
       >

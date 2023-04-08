@@ -1,4 +1,5 @@
 import About from '../components/About'
+import Nav from '../components/Nav'
 function Landing() {
 
   function handleClick() {
@@ -8,8 +9,9 @@ function Landing() {
 
   return (
     <>
-      <div id='fun' className="h-[90vh] col-span-9 overflow-auto no-scrollbar scroll-smooth md:col-span-5 lg:max-w-7xl mx-auto">
-        <div className="flex my-auto min-h-[73%] px-3 mr-52">
+      <div id='fun' className="h-full  overflow-auto no-scrollbar scroll-smooth  ">
+      <Nav />
+        <div className="flex min-h-[73%] mx-auto lg:max-w-7xl">
           <div className="my-auto">
             <h1>Zachary Thomas</h1>
             <hr className="w-[75%]" />

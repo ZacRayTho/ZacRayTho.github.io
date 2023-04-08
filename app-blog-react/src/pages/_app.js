@@ -16,7 +16,7 @@ export default function MyApp({ Component, pageProps }) {
     </Head>
     <div className="bg-img">
       
-      <Nav className="" />
+      
       <Component {...pageProps} className="z-0" />
     </div>
   </>)
