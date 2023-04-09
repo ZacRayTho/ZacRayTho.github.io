@@ -1,0 +1,138 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+
+
+
+@keyframes bounce {
+    0% {
+        transform: translate(0px, -0px);
+    }
+
+    25% {
+        transform: translate(0px, -35px);
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+    }
+
+    75% {
+        transform: translate(0px, -15px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+#chevron {
+
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+.bg-img {
+    background-image: url("../pages/css/splash-bg.jpg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+
+body {
+    color: white;
+}
+
+.card-text,
+.card-title {
+    color: black;
+}
+
+#project-teaser {
+    height: 15rem;
+}
+
+.blog-img {
+    /* background-image: url("blue_background.jpg"); */
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.border-custom {
+    border-image: linear-gradient(0deg, rgba(230,150,25,1) 0%, rgba(4,96,217,1) 50%, rgba(230,150,25,1) 100%) 30;
+    border-width: .5em;
+    border-style: solid;
+}
+
+.navbar-custom {
+    border-image: linear-gradient(90deg, rgba(230,150,25,1) 0%, rgba(4,96,217,1) 50%, rgba(230,150,25,1) 100%) 30;
+    border-width: .5em;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, .9);
+    color: black;
+}
+
+
+.nav-link {
+    font-size: 3vh;
+}
+
+h1 {
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 11vh;
+}
+
+h2 {
+    font-size: 4vh;
+}
+
+aside {
+    float: right;
+}
+
+#box>p {
+    font-size: 1.3em;
+}
+
+#box {
+    height:fit-content;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.hover-grow:hover {
+    filter: invert(.5);
+    scale:1.1;
+}
+
+html{
+    scroll-behavior:smooth
+}
+
+
+
