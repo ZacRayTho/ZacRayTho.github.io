@@ -9,9 +9,9 @@ function Landing() {
 
   return (
     <>
-      <div id='fun' className="h-full overflow-auto no-scrollbar scroll-smooth  ">
-      <Nav />
-        <div className="py-96">
+      <div id='fun' className="h-full overflow-auto no-scrollbar scroll-smooth w-screen">
+        <Nav />
+        <div className="py-36 lg:max-w-7xl lg:py-[21rem] mx-auto">
           <div className="my-auto">
             <h1>Zachary Thomas</h1>
             <hr className="w-[50%]" />
@@ -19,13 +19,15 @@ function Landing() {
           </div>
         </div>
         <div id="chevron" className="flex justify-center h-1/2">
-          <button id="downWeGo" onClick={handleClick} className="btn btn-transparent border-transparent">
+          <a id="downWeGo" href="#about" className="btn btn-transparent border-transparent">
             <img src={"./img/chevron.svg"} alt="Chevron Down" />
-          </button>
+          </a>
         </div>
-        <About />
+        <div className='mt-4 w-screen'>
+          <About />
+        </div>
       </div>
-     
+
     </>
   )
 }

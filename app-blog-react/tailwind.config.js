@@ -9,8 +9,13 @@ module.exports = {
     "./public/**/*.html"
   ],
   theme: {
+    colors: {
+      navy: '#000814',
+      'lightnavy': '#001D3D',
+    },
     
     extend: {
+
       
       fontFamily: {
         kaushan: ['"Kaushan Script"', 'serif']

@@ -125,5 +125,14 @@ aside {
     scrollbar-width: none;  /* Firefox */
 }
 
+.hover-grow:hover {
+    filter: invert(.5);
+    scale:1.1;
+}
+
+html{
+    scroll-behavior:smooth
+}
+
 
 

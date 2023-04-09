@@ -14,7 +14,7 @@ export default function MyApp({ Component, pageProps }) {
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     </Head>
-    <div className="bg-img">
+    <div className="bg-img ">
       
       
       <Component {...pageProps} className="z-0" />

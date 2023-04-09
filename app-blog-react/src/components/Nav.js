@@ -3,11 +3,11 @@ function Nav() {
 
   return (
     <>
-      <Navbar className="!bg-transparent fixed top-0 flex justify-end left-2/3"
+      <Navbar className="!bg-transparent fixed top-0 flex lg:inset-x-0"
         fluid={true}
         rounded={true}
       >
-        <div className="flex justify-end" >
+        <div className="" >
           {/* <Navbar.Brand >
             <img
               src="./img/zt-logo.png"
@@ -16,19 +16,29 @@ function Nav() {
             />
           </Navbar.Brand> */}
           <Navbar.Toggle />
-          <Navbar.Collapse>
-            <Navbar.Link className="text-white text-lg" href="/navbars">
-              About
-            </Navbar.Link>
-            <Navbar.Link className="text-white text-lg" href="/navbars">
-              Blog
-            </Navbar.Link>
-            <Navbar.Link className="text-white text-lg" href="/navbars">
-              Projects
-            </Navbar.Link>
-            <Navbar.Link className="text-white text-lg" href="/navbars">
-              Contact
-            </Navbar.Link>
+          <Navbar.Collapse >
+            <div className="flex space-x-11">
+              <div>
+                <Navbar.Link className="text-white text-2xl" href="/navbars">
+                  Contact
+                </Navbar.Link>
+              </div>
+              <div>
+                <Navbar.Link className="text-white text-2xl" href="/navbars">
+                  About
+                </Navbar.Link>
+              </div>
+              <div>
+                <Navbar.Link className="text-white text-2xl" href="/navbars">
+                  Projects
+                </Navbar.Link>
+              </div>
+              <div>
+                <Navbar.Link className="text-white text-2xl" href="/navbars">
+                  Blog
+                </Navbar.Link>
+              </div>
+            </div>
           </Navbar.Collapse>
         </div>
       </Navbar>
