@@ -11,7 +11,8 @@ module.exports = {
   theme: {
     colors: {
       navy: '#000814',
-      'lightnavy': '#001D3D',
+      'mediumnavy': '#00296B',
+      'lightnavy': '#003566',
     },
     
     extend: {
