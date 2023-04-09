@@ -4,15 +4,15 @@ import Contact from "./Contact"
 function About() {
 
   return (
-    <div className="bg-gradient-to-b from-navy to-lightnavy p-5 " id="about">
-      <div className="max-w-7xl mx-auto h-[22rem] lg:flex" >
+    <div className="bg-gradient-to-b from-navy to-lightnavy p-5 flex-col" id="about">
+      <div className="max-w-7xl mx-auto lg:h-[22rem] items-stretch lg:flex" >
         <div className="bg-gradient-to-b  from-transparent to-[#D4AF37] lg:bg-gradient-to-r lg:w-[81%] min-h-full text-center ">
 
           <h2 className="">About Me</h2>
           <p className="">
             Hey! You stumbled onto my wonderful portfolio, have a great stay!
             <br />
-            <br />
+            
             I have always loved learning and problem solving but I wasn't sure
             if software development was right for me. I decided to give it a try
             and I'm glad I did! I enjoy working with code and I'm always learning new things.
@@ -34,11 +34,11 @@ function About() {
         </div>
         <Contact />
       </div>
-      <div className="bg-gradient-to-b  from-transparent to-[#D4AF37] lg:bg-gradient-to-l rounded-l-xl max-w-7xl mx-auto h-[24rem] mt-5 text-center" >
+      <div className="bg-gradient-to-b  from-transparent to-[#D4AF37] lg:bg-gradient-to-l lg:rounded-l-xl max-w-7xl mx-auto lg:h-[24rem] mt-5 text-center pb-3 items-stretch" >
 
         <h2>My Current Stack</h2>
-        <div className="flex">
-          <div className="max-w-sm rounded overflow-hidden shadow-lg bg-mediumnavy mx-3 h-3/4">
+        <div className="lg:flex">
+          <div className="max-w-sm rounded overflow-hidden shadow-lg bg-mediumnavy lg:mx-3 mx-auto">
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2">Front End</div>
               <p className="">
@@ -46,14 +46,14 @@ function About() {
                 The combination of the graphic design and user interface.
               </p>
             </div>
-            <div className="px-6 pt-10 pb-2 space-x-3 items-center justify-center flex">
-              <img src="./img/js-logo.png" alt="" className="h-20 w-18" />
-              <img src="./img/react.png" alt="" className="h-20 w-18" />
-              <img src="./img/bootstrapLogo.png" alt="" className="h-20 w-18" />
+            <div className="px-6 pt-16 space-x-3 items-center justify-center flex">
+              <img src="./img/icons/javascript.svg" alt="Javascript" title="Javascript" className="h-20 " />
+              <img src="./img/icons/react.svg" alt="React" title="React" className="h-20 " />
+              <img src="./img/icons/bootstrap.svg" alt="Bootstrap" title="Bootstrap" className="h-20 " />
             </div>
           </div>
 
-          <div className="max-w-sm rounded overflow-hidden shadow-lg bg-mediumnavy mx-3 h-3/4">
+          <div className="max-w-sm rounded overflow-hidden shadow-lg bg-mediumnavy lg:mx-3 mx-auto">
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2">Back End</div>
               <p className="">
@@ -61,29 +61,32 @@ function About() {
                 responsible for storing and organizing data, and ensuring everything on the client-side actually works
               </p>
             </div>
-            <div className="px-6 pt-10 pb-2 space-x-3 items-center justify-center flex">
-              <img src="./img/python.png" alt="" className="h-20 w-18" />
-              <img src="./img/sql-logo.png" alt="" className="h-20 w-18" />
-              <img src="./img/bootstrapLogo.png" alt="" className="h-20 w-18" />
+            <div className="px-6 pt-10 space-x-3 items-center justify-center flex">
+              <img src="./img/icons/python.svg" alt="Python" title="Python" className="h-20 " />
+              <img src="./img/icons/postgresql.svg" alt="PostgreSQL" title="PostgreSQL" className="h-20 " />
+              <img src="./img/icons/django.svg" alt="Django" title="Django" className="h-20 " />
             </div>
           </div>
 
-          <div className="max-w-sm rounded overflow-hidden shadow-lg bg-mediumnavy mx-3 h-3/4">
+          <div className="max-w-sm rounded overflow-hidden shadow-lg bg-mediumnavy lg:mx-3  mx-auto">
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2">Tools</div>
               <p className="">
-                The client side of the website, what the is greeted by and interacts with.
-                The combination of the graphic design and user interface.
+                Not a necessity but you can't go wrong with increased workflow and efficiency, and these are how I get to that increase.
               </p>
             </div>
-            <div className="px-6 pt-10 pb-2 space-x-3 items-center justify-center flex">
-              <img src="./img/js-logo.png" alt="" className="h-20 w-18" />
-              <img src="./img/react.png" alt="" className="h-20 w-18" />
-              <img src="./img/bootstrapLogo.png" alt="" className="h-20 w-18" />
+            <div className="px-6 pt-16  space-x-3 items-center justify-center flex">
+              <img src="./img/icons/github.svg" alt="Github" title="Github" className="h-20 " />
+              <img src="./img/icons/google.svg" alt="Google" title="Google" className="h-20 " />
+              <img src="./img/icons/slack.svg" alt="Slack" title="Slack" className="h-20 " />
             </div>
           </div>
         </div>
       </div>
+
+    
+
+
     </div>
 
   )
