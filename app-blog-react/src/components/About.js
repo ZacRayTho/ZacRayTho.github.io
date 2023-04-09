@@ -1,18 +1,35 @@
+import { useRef } from "react"
 import Contact from "./Contact"
+import ProjectCard from "./ProjectCard"
 
 
 function About() {
+  const projectFold = useRef(null)
+  const projectBtn = useRef(null)
+
+  function ProjectShow() {
+    console.log(projectBtn.current.innerHTML)
+    let hidden = projectFold.current.className
+    if (hidden == "hidden") {
+      projectFold.current.className = ""
+      projectBtn.current.innerHTML = "Less"
+    }
+    else {
+      projectFold.current.className = "hidden"
+      projectBtn.current.innerHTML = "More"
+    }
+  }
 
   return (
     <div className="bg-gradient-to-b from-navy to-lightnavy p-5 flex-col" id="about">
-      <div className="max-w-7xl mx-auto lg:h-[22rem] items-stretch lg:flex" >
+      <div div className="max-w-7xl mx-auto lg:h-[22rem] items-stretch lg:flex" >
         <div className="bg-gradient-to-b  from-transparent to-[#D4AF37] lg:bg-gradient-to-r lg:w-[81%] min-h-full text-center ">
 
           <h2 className="">About Me</h2>
           <p className="">
             Hey! You stumbled onto my wonderful portfolio, have a great stay!
             <br />
-            
+
             I have always loved learning and problem solving but I wasn't sure
             if software development was right for me. I decided to give it a try
             and I'm glad I did! I enjoy working with code and I'm always learning new things.
@@ -33,7 +50,7 @@ function About() {
 
         </div>
         <Contact />
-      </div>
+      </div >
       <div className="bg-gradient-to-b  from-transparent to-[#D4AF37] lg:bg-gradient-to-l lg:rounded-l-xl max-w-7xl mx-auto lg:h-[24rem] mt-5 text-center pb-3 items-stretch" >
 
         <h2>My Current Stack</h2>
@@ -84,10 +101,24 @@ function About() {
         </div>
       </div>
 
-    
+      <h2 className="text-center">Projects</h2>
+      <div className="grid grid-cols-3 max-w-7xl mx-auto mt-5">
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+      </div>
+      <div className="hidden" ref={projectFold}>
+        <div className="grid grid-cols-3 max-w-7xl mx-auto ">
+          <ProjectCard />
+          <ProjectCard />
+          <ProjectCard />
+        </div>
+      </div>
+      <div className="max-w-7xl w-full flex mx-auto">
+        <button className="w-full text-lg font-bold border-t rounded-t-lg text-center" onClick={ProjectShow} ref={projectBtn}>More</button>
+      </div>
 
-
-    </div>
+    </div >
 
   )
 }
