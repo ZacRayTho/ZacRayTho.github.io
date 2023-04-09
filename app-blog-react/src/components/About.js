@@ -62,8 +62,8 @@ function About() {
               </p>
             </div>
             <div className="px-6 pt-10 pb-2 space-x-3 items-center justify-center flex">
-              <img src="./img/js-logo.png" alt="" className="h-20 w-18" />
-              <img src="./img/react.png" alt="" className="h-20 w-18" />
+              <img src="./img/python.png" alt="" className="h-20 w-18" />
+              <img src="./img/sql-logo.png" alt="" className="h-20 w-18" />
               <img src="./img/bootstrapLogo.png" alt="" className="h-20 w-18" />
             </div>
           </div>
