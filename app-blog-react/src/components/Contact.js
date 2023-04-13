@@ -22,7 +22,7 @@ function Contact() {
               className="text-center"
             >
               <h5 className="text-lg font-medium">Zachary Thomas</h5>
-              <p className="">Full Stack Web Developer.</p>
+              <p className="">Full Stack Web Developer</p>
               <div className="grid grid-cols-2 w-36 mx-auto">
                 <div className="flex justify-center">
                   <a

@@ -11,8 +11,7 @@ function BlogTeaseCard(props) {
     return (
         <>
             <div
-                className="card col-lg-3 col-md-4 col-sm-6 mb-4 mx-auto border-custom"
-                style={{ width: "18rem", backgroundColor: "aliceblue" }}
+                className="mx-auto border-custom w-72"
             >
                 <div className="card-body">
                     <h5 className="card-title">{title}</h5>
