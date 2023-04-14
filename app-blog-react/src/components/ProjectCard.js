@@ -1,5 +1,6 @@
-function ProjectCard(props) {
-    const { title, id, img, imgAlt, modal, projectLink, githubLink } = props;
+import Modal from "./Modal"
+
+function ProjectCard({ project, setShowModal, showModal, setModalData }) {
 
     return (
         <>
@@ -7,25 +8,28 @@ function ProjectCard(props) {
                 className="w-72 border-custom mb-4 mx-auto"
             >
                 <div className="card-body text-center">
-                    <h5 className="card-title ">{title}</h5>
+                    <h5 className="card-title ">{project.title}</h5>
                     <div className="card-text ">
                         <img
-                            alt={imgAlt}
+                            alt={project.imgAlt}
                             className="border rounded mw-100"
                             id="project-teaser"
-                            src={img}
+                            src={project.img}
                         />
                         <button
-                            type="button"
-                            className="btn btn-primary mt-1"
-                            data-bs-toggle="modal"
-                            data-bs-target={"#" + id}
+                            className="rounded-full bg-white text-black py-2 px-4"
+                            
+                            onClick={() => 
+                                {setModalData(project.modal)
+                                setShowModal(true)}
+                            }
                         >
                             More info
                         </button>
-                        <div
+
+                        {/* <div
                             className="modal fade"
-                            id={id}
+                            id={project.id}
                             tabIndex={-1}
                             aria-labelledby="exampleModalLabel"
                             aria-hidden="true"
@@ -33,8 +37,8 @@ function ProjectCard(props) {
                             <div className="modal-dialog">
                                 <div className="modal-content">
                                     <div className="modal-header">
-                                        <h5 className="modal-title" id={id}>
-                                            {title}
+                                        <h5 className="modal-title" id={project.id}>
+                                            {project.title}
                                         </h5>
                                         <button
                                             type="button"
@@ -44,7 +48,7 @@ function ProjectCard(props) {
                                         />
                                     </div>
                                     <div className="modal-body">
-                                        {modal}
+                                        {project.modal}
                                     </div>
                                     <div className="modal-footer">
                                         <button
@@ -54,12 +58,12 @@ function ProjectCard(props) {
                                         >
                                             Close
                                         </button>
-                                        <a href={githubLink}>
+                                        <a href={project.githubLink}>
                                             <button type="button" className="btn btn-primary">
                                                 Project Repo!
                                             </button>
                                         </a>
-                                        <a href={projectLink}>
+                                        <a href={project.projectLink}>
                                             <button type="button" className="btn btn-primary">
                                                 Check it out!
                                             </button>
@@ -68,11 +72,11 @@ function ProjectCard(props) {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <a
-                        href={projectLink}
-                        className="btn btn-primary mt-1 card-link"
+                        href={project.projectLink}
+                        className="rounded-full bg-white text-black py-2 px-4"
                     >
                         Check it out!
                     </a>

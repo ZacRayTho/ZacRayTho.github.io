@@ -1,13 +1,19 @@
-import { useRef } from "react"
+import { useRef, useState } from "react"
 import Contact from "./Contact"
 import ProjectCard from "./ProjectCard"
 import BlogTeaseCard from "./BlogTeaseCard"
+import StackCard from "./StackCard"
+import { projects, stacks, blogs } from "./Data"
+import Modal from "./Modal"
 
 function About() {
+
   const projectFold = useRef(null)
   const projectBtn = useRef(null)
   const blogFold = useRef(null)
   const blogBtn = useRef(null)
+  const [showModal, setShowModal] = useState(false)
+  const [modalData, setModalData] = useState(null)
 
   function ProjectShow() {
     console.log(projectBtn.current.innerHTML)
@@ -70,63 +76,35 @@ function About() {
 
         <h2>My Current Stack</h2>
         <div className="lg:flex">
-          <div className="max-w-sm rounded overflow-hidden shadow-lg mt-5 lg:mt-0 bg-mediumnavy lg:mx-3 mx-auto">
-            <div className="px-6 py-4 min-h-[61%]">
-              <div className="font-bold text-xl mb-2">Front End</div>
-              <p className="">
-                The client side of the website, what the is greeted by and interacts with.
-                The combination of the graphic design and user interface.
-              </p>
-            </div>
-            <div className="px-6 pt-10 space-x-3 items-center justify-center flex">
-              <img src="./img/icons/javascript.svg" alt="Javascript" title="Javascript" className="h-20 " />
-              <img src="./img/icons/react.svg" alt="React" title="React" className="h-20 " />
-              <img src="./img/icons/bootstrap.svg" alt="Bootstrap" title="Bootstrap" className="h-20 " />
-            </div>
-          </div>
-
-          <div className="max-w-sm rounded overflow-hidden shadow-lg mt-5 lg:mt-0 bg-mediumnavy lg:mx-3 mx-auto">
-            <div className="px-6 py-4 min-h-[61%]">
-              <div className="font-bold text-xl mb-2">Back End</div>
-              <p className="min-h-full">
-                The server side of the website, what does all the processing for requests from the client side.
-                responsible for storing and organizing data, and ensuring everything on the client-side actually works
-              </p>
-            </div>
-            <div className="px-6 pt-10 space-x-3 items-center justify-center flex">
-              <img src="./img/icons/python.svg" alt="Python" title="Python" className="h-20 " />
-              <img src="./img/icons/postgresql.svg" alt="PostgreSQL" title="PostgreSQL" className="h-20 " />
-              <img src="./img/icons/django.svg" alt="Django" title="Django" className="h-20 " />
-            </div>
-          </div>
-
-          <div className="max-w-sm rounded overflow-hidden shadow-lg mt-5 lg:mt-0 bg-mediumnavy lg:mx-3  mx-auto">
-            <div className="px-6 py-4 min-h-[61%]">
-              <div className="font-bold text-xl mb-2">Tools</div>
-              <p className="">
-                Not a necessity but you can't go wrong with increased workflow and efficiency, and these are how I get to that increase.
-              </p>
-            </div>
-            <div className="px-6 pt-10 space-x-3 items-center justify-center flex">
-              <img src="./img/icons/github.svg" alt="Github" title="Github" className="h-20 " />
-              <img src="./img/icons/google.svg" alt="Google" title="Google" className="h-20 " />
-              <img src="./img/icons/slack.svg" alt="Slack" title="Slack" className="h-20 " />
-            </div>
-          </div>
+          {
+            stacks.map((stack) =>
+              <StackCard stack={stack} />
+            )
+          }
         </div>
       </div>
 
       <h2 className="text-center">Projects</h2>
+
       <div className="grid grid-cols-3 max-w-7xl mx-auto mt-5">
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
+        {
+          projects.slice(0, 3).map((project) =>
+            <>
+              <ProjectCard project={project} setShowModal={setShowModal} showModal={showModal} setModalData={setModalData}/>
+            </>
+          )
+        }
+        <Modal isVisible={showModal} setShowModal={setShowModal} >
+                {modalData}
+        </Modal>
       </div>
       <div className="hidden" ref={projectFold}>
         <div className="grid grid-cols-3 max-w-7xl mx-auto ">
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
+          {
+            projects.slice(3, 6).map((project) =>
+              <ProjectCard project={project} setShowModal={setShowModal} showModal={showModal} setModalData={setModalData}/>
+            )
+          }
         </div>
       </div>
       <div className="max-w-7xl w-full flex mx-auto">
