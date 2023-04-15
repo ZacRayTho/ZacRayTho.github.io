@@ -5,6 +5,7 @@ import BlogTeaseCard from "./BlogTeaseCard"
 import StackCard from "./StackCard"
 import { projects, stacks, blogs } from "./Data"
 import Modal from "./Modal"
+import Link from "next/link"
 
 function About() {
 
@@ -42,9 +43,9 @@ function About() {
   }
 
   return (
-    <div className="bg-gradient-to-b from-navy to-lightnavy p-5 flex-col" id="about">
+    <div id="About" className="bg-gradient-to-b from-navy to-lightnavy p-5 flex-col" >
       <div div className="max-w-7xl mx-auto lg:h-[22rem] items-stretch lg:flex" >
-        <div className="bg-gradient-to-b  from-transparent to-[#D4AF37] lg:bg-gradient-to-r lg:w-[81%] min-h-full text-center ">
+        <div className="bg-gradient-to-b  from-transparent to-gold lg:bg-gradient-to-r lg:w-[81%] min-h-full text-center ">
 
           <h2 className="">About Me</h2>
           <p className="">
@@ -72,7 +73,7 @@ function About() {
         </div>
         <Contact />
       </div >
-      <div className="bg-gradient-to-b  from-transparent to-[#D4AF37] lg:bg-gradient-to-l lg:rounded-l-xl max-w-7xl mx-auto lg:h-[24rem] mt-5 text-center pb-3 items-stretch" >
+      <div className="bg-gradient-to-b  from-transparent to-gold lg:bg-gradient-to-l lg:rounded-l-xl max-w-7xl mx-auto lg:h-[24rem] mt-5 text-center pb-3 items-stretch" >
 
         <h2>My Current Stack</h2>
         <div className="lg:flex">
@@ -84,51 +85,55 @@ function About() {
         </div>
       </div>
 
-      <h2 className="text-center">Projects</h2>
+      <h2 className="text-center" id="Projects">Projects</h2>
 
-      <div className="grid grid-cols-3 max-w-7xl mx-auto mt-5">
+      <div className="grid lg:grid-cols-3 max-w-7xl mx-auto mt-5">
         {
           projects.slice(0, 3).map((project) =>
-            <>
-              <ProjectCard project={project} setShowModal={setShowModal} showModal={showModal} setModalData={setModalData}/>
-            </>
+            <ProjectCard project={project} setShowModal={setShowModal} showModal={showModal} setModalData={setModalData} />
           )
         }
-        <Modal isVisible={showModal} setShowModal={setShowModal} >
-                {modalData}
-        </Modal>
+
       </div>
       <div className="hidden" ref={projectFold}>
-        <div className="grid grid-cols-3 max-w-7xl mx-auto ">
+        <div className="grid lg:grid-cols-3 max-w-7xl mx-auto ">
           {
             projects.slice(3, 6).map((project) =>
-              <ProjectCard project={project} setShowModal={setShowModal} showModal={showModal} setModalData={setModalData}/>
+              <ProjectCard project={project} setShowModal={setShowModal} showModal={showModal} setModalData={setModalData} />
             )
           }
         </div>
+        <Link href="/projects" className="py-2 px-4 bg-white border-2 border-gold text-black rounded-lg mx-auto flex w-fit mb-3 font-bold text-xl">Check out all my awesome projects!</Link>
       </div>
       <div className="max-w-7xl w-full flex mx-auto">
-        <button className="w-full text-lg font-bold border-t rounded-t-lg text-center" onClick={ProjectShow} ref={projectBtn}>More</button>
+        <Link href="blogTease" className=" lg:hidden w-full text-lg font-bold border-t rounded-t-lg text-center">All Projects</Link>
+        <button className="hidden lg:inline w-full text-lg font-bold border-t rounded-t-lg text-center" onClick={ProjectShow} ref={projectBtn}>More</button>
       </div>
 
 
-      <h2 className="text-center">Blogs</h2>
-      <div className="grid grid-cols-3 max-w-7xl mx-auto mt-5">
-        <BlogTeaseCard />
-        <BlogTeaseCard />
-        <BlogTeaseCard />
+      <h2 id="Blogs" className="text-center">Blogs</h2>
+      <div className="grid lg:grid-cols-3 max-w-7xl mx-auto mt-5">
+        {
+          blogs.slice(0, 3).map((blog) =>
+            <BlogTeaseCard blog={blog} setShowModal={setShowModal} showModal={showModal} setModalData={setModalData} />
+          )
+        }
       </div>
       <div className="hidden" ref={blogFold}>
-        <div className="grid grid-cols-3 max-w-7xl mx-auto ">
-          <BlogTeaseCard />
-          <BlogTeaseCard />
-          <BlogTeaseCard />
+        <div className="grid lg:grid-cols-3 max-w-7xl mx-auto ">
+          {
+            blogs.slice(3, 6).map((blog) =>
+              <BlogTeaseCard blog={blog} setShowModal={setShowModal} showModal={showModal} setModalData={setModalData} />
+            )
+          }
         </div>
+        <Link href="/blogTease" className="py-2 px-4 bg-white border-2 border-gold text-black rounded-lg mx-auto flex w-fit mb-3 font-bold text-xl">Check out all my awesome blogs!</Link>
       </div>
       <div className="max-w-7xl w-full flex mx-auto">
-        <button className="w-full text-lg font-bold border-t rounded-t-lg text-center" onClick={BlogShow} ref={blogBtn}>More</button>
+        <Link href="blogTease" className=" lg:hidden w-full text-lg font-bold border-t rounded-t-lg text-center">All Blogs</Link>
+        <button className="hidden lg:inline w-full text-lg font-bold border-t rounded-t-lg text-center" onClick={BlogShow} ref={blogBtn}>More</button>
       </div>
-
+      <Modal isVisible={showModal} setShowModal={setShowModal} modalData={modalData} />
     </div >
 
   )
