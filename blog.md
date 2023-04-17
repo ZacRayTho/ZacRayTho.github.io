@@ -251,7 +251,10 @@ same ideas as before, or have they changed now that you understand more about th
 
 ### What are you struggling with the most in the tech stack so far and why?
 
-    I think it's pretty hard to narrow what i'm struggling with the most in the tech stack. Some times I struggle with aligning front end components, other times trying to get the specific data from queries can be a hassle. Django definitely helps with queries though and sometimes bootstrap cooperates and aligns stuff how I want.
+    I think it's pretty hard to narrow what i'm struggling with the most in the tech stack. Some times I     
+    struggle with aligning front end components, other times trying to get the specific data from queries    
+     can  be a hassle. Django definitely helps with queries though and sometimes bootstrap cooperates and     
+     aligns stuff how I want.
 
 
 ### After having built your first full-stack application, what things in your repertoire are a sticking point for you? What was it like connecting front and back end?
@@ -265,7 +268,7 @@ same ideas as before, or have they changed now that you understand more about th
 
 ### Describe Agile Development or a specific ceremony(stand up, retro, sprints)
 
-    Agile development is an approach towards software development, focused more around the customer, than around the initial plans. Agile is named aptly since the whole process it covers is agile in the way that if the plans change no matter the reason, the development should be able to pivot without nuking and paving the entire project and starting from the ground. Agile methodologies also include communication and collaboration between multiple teams who are working on separate aspects of the project.
+    Agile development is an approach towards software development, focused more around the customer, than around the initial plans. Agile is named aptly since the whole process it covers is agile in the way that if the plans change no matter the reason, the development should be able to pivot without nuking and paving the entire project and starting from the ground. Agile methodologies also include communication and collaboration between multiple teams who are working on separate aspects of the project. This week we solely focused on our MVPs, and besides me updating my portfolio with new stuff I've learned, there was no coding this week. Definitely was a different week that was slow to start, but it highlights an importance aspect of agile development, the MVP is the a way to obtain the most data for the project with the least effort while providing something for the customer.
 
 ### Convince someone who does not use frameworks why using a framework is beneficial.
 
