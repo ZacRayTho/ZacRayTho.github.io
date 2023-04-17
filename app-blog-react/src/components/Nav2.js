@@ -1,80 +1,49 @@
-import { NavLink } from "react-router-dom";
+import { Navbar } from "flowbite-react";
+function Nav2({ page }) {
 
-function Nav2(props) {
-    const { setView } = props;
-
-    function handleClick(page) {
-        setView(page)
-    }
-//{view == "About" || view == "Contact" ? "" : ""}
-    return (
-        <>
-        
-            <nav className="navbar navbar-expand-lg navbar-dark ">
-                <div className="container-fluid">
-                    <button
-                        className="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav"
-                        aria-controls="navbarNav"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span className="navbar-toggler-icon" />
-                    </button>
-                    <div className="collapse navbar-collapse"  id="navbarNav">
-                        <ul className={"navbar-nav text-center d-flex mx-auto navbar-custom"}>
-                            <li className="nav-item mx-3 ">
-                                {/* change below href to scroll down page to about section */}
-                                <NavLink className={"text-decoration-none"} to="/">
-                                    <button
-                                        className="nav-link bg-transparent border-0 "
-                                        style={{color:"black", fontWeight: "500"}}
-                                        onClick={() => handleClick("About")}>
-                                        About
-                                    </button>
-                                </NavLink>
-                            </li>
-                            <li className="nav-item mx-3">
-                                <NavLink className={"text-decoration-none"} to="/blogTease">
-                                    <button
-                                        className="nav-link bg-transparent border-0"
-                                        style={{color:"black", fontWeight: "500"}}
-                                        onClick={() => handleClick("BlogTease")}
-                                    >
-                                        Blogs
-                                    </button>
-                                </NavLink>
-                            </li>
-                            <li className="nav-item mx-3">
-                                <NavLink className={"text-decoration-none"} to="/#about">
-                                    <button
-                                        className="nav-link bg-transparent border-0"
-                                        style={{color:"black", fontWeight: "500"}}
-                                        onClick={() => handleClick("Contact")}
-                                    >
-                                        Contact
-                                    </button>
-                                </NavLink>
-                            </li>
-                            <li className="nav-item mx-3">
-                                <NavLink className={"text-decoration-none"} to="/projects">
-                                    <button
-                                        className="nav-link bg-transparent border-0"
-                                        style={{color:"black", fontWeight: "500"}}
-                                        onClick={() => handleClick("Projects")}
-                                    >
-                                        Projects
-                                    </button>
-                                </NavLink>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </>
-    )
+  return (
+    <>
+      <Navbar className="!bg-transparent fixed top-0 flex lg:inset-x-0"
+        fluid={true}
+        rounded={true}
+      >
+        <div className="" >
+          {/* <Navbar.Brand >
+            <img
+              src="./img/zt-logo.png"
+              className="mr-3 h-6 sm:h-9"
+              alt="Zachary Thomas Logo"
+            />
+          </Navbar.Brand> */}
+          <Navbar.Toggle />
+          <Navbar.Collapse >
+            <div className="flex space-x-11">
+              <div>
+                <Navbar.Link className="text-white text-2xl" href="/#About">
+                  Contact
+                </Navbar.Link>
+              </div>
+              <div>
+                <Navbar.Link className="text-white text-2xl" href="/#About">
+                  About
+                </Navbar.Link>
+              </div>
+              <div>
+                <Navbar.Link className={page=="project" ? "text-white text-2xl opacity-50" : "text-white text-2xl"} href="/project/" disabled={ page=="project" ? true : false}>
+                  Projects
+                </Navbar.Link>
+              </div>
+              <div>
+                <Navbar.Link className={page=="blog" ? "text-white text-2xl opacity-50" : "text-white text-2xl"} href="/blog/" disabled={ page=="blog" ? true : false}>
+                  Blog
+                </Navbar.Link>
+              </div>
+            </div>
+          </Navbar.Collapse>
+        </div>
+      </Navbar>
+    </>
+  )
 }
 
 export default Nav2;

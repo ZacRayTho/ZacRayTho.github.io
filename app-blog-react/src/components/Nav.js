@@ -19,22 +19,22 @@ function Nav() {
           <Navbar.Collapse >
             <div className="flex space-x-11">
               <div>
-                <Navbar.Link className="text-white text-2xl" href="/navbars">
+                <Navbar.Link className="text-white text-2xl lg:hidden" href="#About">
                   Contact
                 </Navbar.Link>
               </div>
               <div>
-                <Navbar.Link className="text-white text-2xl" href="/navbars">
+                <Navbar.Link className="text-white text-2xl" href="#About">
                   About
                 </Navbar.Link>
               </div>
               <div>
-                <Navbar.Link className="text-white text-2xl" href="/navbars">
+                <Navbar.Link className="text-white text-2xl" href="#Projects">
                   Projects
                 </Navbar.Link>
               </div>
               <div>
-                <Navbar.Link className="text-white text-2xl" href="/navbars">
+                <Navbar.Link className="text-white text-2xl" href="#Blogs">
                   Blog
                 </Navbar.Link>
               </div>

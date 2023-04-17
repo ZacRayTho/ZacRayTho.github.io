@@ -1,7 +1,7 @@
 import Script from 'next/script';
 import Nav from '../components/Nav';
 import SideContact from '../components/SideContact';
-import Landing from './Landing';
+import Landing from '../components/Landing';
 
 
 function HomePage() {

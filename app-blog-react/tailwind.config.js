@@ -16,7 +16,12 @@ module.exports = {
     },
     
     extend: {
-
+      colors: {
+        navy: '#000814',
+        'mediumnavy': '#00296B',
+        'lightnavy': '#003566',
+        'gold': '#D4AF37',
+      },
       
       fontFamily: {
         kaushan: ['"Kaushan Script"', 'serif']

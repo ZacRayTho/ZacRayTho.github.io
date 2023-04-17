@@ -3,7 +3,7 @@
 function Contact() {
   return (
 
-    <div className="pt-1 bg-mediumnavy border-8  border-[#D4AF37] h-full lg:w-1/5 lg:rounded-r-xl" id="contact">
+    <div className=" pt-1 bg-mediumnavy border-8  border-[#D4AF37] h-full lg:w-1/5 lg:rounded-r-xl" id="contact">
       <div className="">
         {/* card container */}
         <div className="">
@@ -22,8 +22,8 @@ function Contact() {
               className="text-center"
             >
               <h5 className="text-lg font-medium">Zachary Thomas</h5>
-              <p className="">Full Stack Web Developer.</p>
-              <div className="grid grid-cols-2">
+              <p className="">Full Stack Web Developer</p>
+              <div className="grid grid-cols-2 w-36 mx-auto">
                 <div className="flex justify-center">
                   <a
                     href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=zacraytho@gmail.com&tf=1"
