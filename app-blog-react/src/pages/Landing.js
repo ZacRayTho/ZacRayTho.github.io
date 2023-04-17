@@ -19,7 +19,7 @@ function Landing() {
           </div>
         </div>
         <div id="chevron" className="flex justify-center h-1/2">
-          <a id="downWeGo" href="#about" className="btn btn-transparent border-transparent">
+          <a id="downWeGo" href="#About" className="btn btn-transparent border-transparent">
             <img src={"./img/chevron.svg"} alt="Chevron Down" />
           </a>
         </div>
