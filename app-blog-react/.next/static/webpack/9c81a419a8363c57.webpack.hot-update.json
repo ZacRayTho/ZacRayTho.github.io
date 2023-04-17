@@ -1,1 +1,0 @@
-{"c":["pages/blog","pages/blog/[blogId]","webpack"],"r":["pages/blog"],"m":["./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?absolutePagePath=%2Fworkspace%2FZacRayTho.github.io%2Fapp-blog-react%2Fsrc%2Fpages%2Fblog%2Findex.js&page=%2Fblog!","./src/components/BlogTeaseCard.js","./src/pages/blog/index.js"]}
