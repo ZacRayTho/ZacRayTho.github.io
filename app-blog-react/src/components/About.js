@@ -103,10 +103,10 @@ function About() {
             )
           }
         </div>
-        <Link href="/projects" className="py-2 px-4 bg-white border-2 border-gold text-black rounded-lg mx-auto flex w-fit mb-3 font-bold text-xl">Check out all my awesome projects!</Link>
+        <Link href="/project/" className="py-2 px-4 bg-white border-2 border-gold text-black rounded-lg mx-auto flex w-fit mb-3 font-bold text-xl">Check out all my awesome projects!</Link>
       </div>
       <div className="max-w-7xl w-full flex mx-auto">
-        <Link href="blogTease" className=" lg:hidden w-full text-lg font-bold border-t rounded-t-lg text-center">All Projects</Link>
+        <Link href="/project/" className=" lg:hidden w-full text-lg font-bold border-t rounded-t-lg text-center">All Projects</Link>
         <button className="hidden lg:inline w-full text-lg font-bold border-t rounded-t-lg text-center" onClick={ProjectShow} ref={projectBtn}>More</button>
       </div>
 
@@ -115,7 +115,7 @@ function About() {
       <div className="grid lg:grid-cols-3 max-w-7xl mx-auto mt-5">
         {
           blogs.slice(0, 3).map((blog) =>
-            <BlogTeaseCard blog={blog} setShowModal={setShowModal} showModal={showModal} setModalData={setModalData} />
+            <BlogTeaseCard blog={blog} />
           )
         }
       </div>
@@ -123,14 +123,14 @@ function About() {
         <div className="grid lg:grid-cols-3 max-w-7xl mx-auto ">
           {
             blogs.slice(3, 6).map((blog) =>
-              <BlogTeaseCard blog={blog} setShowModal={setShowModal} showModal={showModal} setModalData={setModalData} />
+              <BlogTeaseCard blog={blog} />
             )
           }
         </div>
-        <Link href="/blogTease" className="py-2 px-4 bg-white border-2 border-gold text-black rounded-lg mx-auto flex w-fit mb-3 font-bold text-xl">Check out all my awesome blogs!</Link>
+        <Link href="/blog" className="py-2 px-4 bg-white border-2 border-gold text-black rounded-lg mx-auto flex w-fit mb-3 font-bold text-xl">Check out all my awesome blogs!</Link>
       </div>
       <div className="max-w-7xl w-full flex mx-auto">
-        <Link href="blogTease" className=" lg:hidden w-full text-lg font-bold border-t rounded-t-lg text-center">All Blogs</Link>
+        <Link href="/blog" className=" lg:hidden w-full text-lg font-bold border-t rounded-t-lg text-center">All Blogs</Link>
         <button className="hidden lg:inline w-full text-lg font-bold border-t rounded-t-lg text-center" onClick={BlogShow} ref={blogBtn}>More</button>
       </div>
       <Modal isVisible={showModal} setShowModal={setShowModal} modalData={modalData} />

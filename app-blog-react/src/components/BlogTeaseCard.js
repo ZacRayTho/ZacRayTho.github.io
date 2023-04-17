@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { NavLink } from "react-router-dom";
 
-function BlogTeaseCard({ blog, setShowModal, showModal, setModalData }) {
+function BlogTeaseCard({ blog }) {
 
     // function handleClick() {
     //     setView("Blog")
@@ -19,7 +19,7 @@ function BlogTeaseCard({ blog, setShowModal, showModal, setModalData }) {
             <div className="mb-3 flex justify-center">
                 <Link
                     className="rounded-lg bg-white text-black py-2 px-4"
-                    href="/fullBlog"
+                    href={"/blog/" + blog.id}
                 >
                     Read Full Post
                 </Link>
