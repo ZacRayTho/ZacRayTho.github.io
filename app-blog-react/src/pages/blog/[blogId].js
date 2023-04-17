@@ -11,22 +11,6 @@ function FullBlog() {
   const router = useRouter();
   const blogId = parseInt(router.query.blogId)
 
-
-  function handleClick(symbol) {
-    switch (symbol) {
-      default:
-      case "+":
-        setBlog(blog + 1)
-        break;
-
-      case "-":
-        setBlog(blog - 1)
-        break;
-    }
-  }
-  // let blog = blogs[blogId]
-
-  // setTimeout(() => {
   return (
     <div className="flex mx-auto justify-center">
       <Nav2 />
@@ -60,7 +44,6 @@ function FullBlog() {
     </div>
 
   )
-  // }, 1000)
 
 }
 
