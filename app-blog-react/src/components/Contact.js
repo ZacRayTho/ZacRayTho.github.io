@@ -3,7 +3,7 @@
 function Contact() {
   return (
 
-    <div className=" pt-1 bg-mediumnavy border-8  border-[#D4AF37] h-full lg:w-1/5 lg:rounded-r-xl" id="contact">
+    <div className=" pt-1 bg-mediumnavy border-8  border-[#D4AF37] h-full lg:w-1/5 lg:rounded-r-xl" id="Contact">
       <div className="">
         {/* card container */}
         <div className="">

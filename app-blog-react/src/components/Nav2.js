@@ -3,7 +3,7 @@ function Nav2({ page }) {
 
   return (
     <>
-      <Navbar className="!bg-transparent fixed top-0 flex lg:inset-x-0"
+      <Navbar className="!bg-transparent fixed top-0 left-0 flex lg:inset-x-0"
         fluid={true}
         rounded={true}
       >
@@ -19,7 +19,7 @@ function Nav2({ page }) {
           <Navbar.Collapse >
             <div className="bg-navy border-2 border-gold rounded-lg md:flex">
               <div>
-                <a className="text-white text-2xl mx-auto px-3" href="/#About">
+                <a className="text-white text-2xl mx-auto px-3" href="/#Contact">
                   Contact
                 </a>
               </div>
