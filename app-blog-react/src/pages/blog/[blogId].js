@@ -14,7 +14,7 @@ function FullBlog() {
   return (
     <div className="flex mx-auto justify-center">
       <Nav2 />
-      <div className="mt-14 p-4 w-1/2 mx-auto max-w-7xl h-fit bg-mediumnavy border-8 border-gold">
+      <div className="mt-14 p-4 xl:w-1/2 mx-auto max-w-7xl h-fit bg-mediumnavy border-8 border-gold">
 
         <h1 className='text-7xl'>{blogs[blogId]?.header}</h1>
         <h2>{blogs[blogId]?.date}</h2>

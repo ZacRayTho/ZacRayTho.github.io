@@ -17,26 +17,26 @@ function Nav2({ page }) {
           </Navbar.Brand> */}
           <Navbar.Toggle />
           <Navbar.Collapse >
-            <div className="flex space-x-11">
+            <div className="bg-navy border-2 border-gold rounded-lg md:flex">
               <div>
-                <Navbar.Link className="text-white text-2xl" href="/#About">
+                <a className="text-white text-2xl mx-auto px-3" href="/#About">
                   Contact
-                </Navbar.Link>
+                </a>
               </div>
               <div>
-                <Navbar.Link className="text-white text-2xl" href="/#About">
+                <a className="text-white text-2xl mx-auto px-3" href="/#About">
                   About
-                </Navbar.Link>
+                </a>
               </div>
               <div>
-                <Navbar.Link className={page=="project" ? "text-white text-2xl opacity-50" : "text-white text-2xl"} href="/project/" disabled={ page=="project" ? true : false}>
+                <a className={page=="project" ? "text-white text-2xl opacity-50 mx-auto px-3" : "text-white text-2xl mx-auto px-3"} href="/project/" disabled={ page=="project" ? true : false}>
                   Projects
-                </Navbar.Link>
+                </a>
               </div>
               <div>
-                <Navbar.Link className={page=="blog" ? "text-white text-2xl opacity-50" : "text-white text-2xl"} href="/blog/" disabled={ page=="blog" ? true : false}>
+                <a className={page=="blog" ? "text-white text-2xl opacity-50 mx-auto px-3" : "text-white text-2xl mx-auto px-3"} href="/blog/" disabled={ page=="blog" ? true : false}>
                   Blog
-                </Navbar.Link>
+                </a>
               </div>
             </div>
           </Navbar.Collapse>

@@ -2,10 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/Landing": "pages/Landing.html",
-  "/blog/[blogId]": "pages/blog/[blogId].html",
-  "/blog": "pages/blog.html",
-  "/": "pages/index.html",
-  "/project": "pages/project.html",
-  "/404": "pages/404.html"
+  "/blog/[blogId]": "pages/blog/[blogId].js",
+  "/project": "pages/project.js",
+  "/blog": "pages/blog.js"
 }
