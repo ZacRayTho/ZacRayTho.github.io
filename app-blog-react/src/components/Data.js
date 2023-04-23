@@ -69,49 +69,49 @@ export const projects = [
         githubLink: "https://github.com/ZacRayTho/react-restaurants"
     },
     {
-        title: "Coming soon",
-        id: "Coming soon",
-        img: "Coming soon",
-        imgAlt: "Coming soon",
-        modal: "Coming soon",
-        projectLink: "Coming soon",
-        githubLink: "Coming soon"
+        title: "Twitter Clone",
+        id: "twitter",
+        img: "./img/project-teasers/twitter-teaser.png",
+        imgAlt: "Teaser Clone",
+        modal: "I created a Twitter clone while we moved to backend development. This project allowed me to experiment with Next.js, Tailwind CSS, and Typescript while keeping my React and JavaScript skills up-to-date. The application is designed to mimic the functionality and user experience of Twitter, with features like login with NextAuth through twitter's API, posting, and commenting.",
+        projectLink: "https://twitter-clone-rho-two.vercel.app/",
+        githubLink: "https://github.com/ZacRayTho/twitter-clone"
     },
     {
-        title: "Coming soon",
-        id: "Coming soon",
-        img: "Coming soon",
-        imgAlt: "Coming soon",
-        modal: "Coming soon",
-        projectLink: "Coming soon",
-        githubLink: "Coming soon"
+        title: "Budget app",
+        id: "Budget",
+        img: "./img/python.png",
+        imgAlt: "Python logo",
+        modal: "During the first week of backend development in the bootcamp, We were tasked with writing a single class in Python and various methods to manipulate and interact with the Category class. To ensure the correctness of the implementation, I practiced Test Driven Development (TDD) and created a separate test file that contains assertions for each method.",
+        projectLink: "https://github.com/ZacRayTho/budget_app",
+        githubLink: "https://github.com/ZacRayTho/budget_app"
     },
     {
-        title: "Coming soon",
-        id: "Coming soon",
-        img: "Coming soon",
-        imgAlt: "Coming soon",
-        modal: "Coming soon",
-        projectLink: "Coming soon",
-        githubLink: "Coming soon"
+        title: "SQL Heroes",
+        id: "sqlheroes",
+        img: "./img/sql-logo.png",
+        imgAlt: "SQL Logo",
+        modal: "During the second week of backend development in the bootcamp, we worked with PostgreSQL and Python to create a terminal-based database from a set of provided tables about heroes. Using SQL commands and Python code, we created a schema for the database, populated it with data, and implemented various features such as searching, adding, and updating records.",
+        projectLink: "https://github.com/ZacRayTho/sql-heroes",
+        githubLink: "https://github.com/ZacRayTho/sql-heroes"
     },
     {
-        title: "Coming soon",
-        id: "Coming soon",
-        img: "Coming soon",
-        imgAlt: "Coming soon",
-        modal: "Coming soon",
-        projectLink: "Coming soon",
-        githubLink: "Coming soon"
+        title: "Django Heroes",
+        id: "djangoheroes",
+        img: "./img/django.png",
+        imgAlt: "Django Logo",
+        modal: "During the third week of backend development in the bootcamp, we delved into the world of web frameworks with Django. Building on our previous experience with SQL and Python, we were tasked with recreating our 'SQL Heroes' database in Django. To prepare for this project, I completed the Django documentation tutorial, which introduced me to the basics of Django's architecture, including models, and views.",
+        projectLink: "https://github.com/ZacRayTho/sql-heroes-django",
+        githubLink: "https://github.com/ZacRayTho/sql-heroes-django"
     },
     {
-        title: "Coming soon",
-        id: "Coming soon",
-        img: "Coming soon",
-        imgAlt: "Coming soon",
-        modal: "Coming soon",
-        projectLink: "Coming soon",
-        githubLink: "Coming soon"
+        title: "Django Jams",
+        id: "djangojams",
+        img: "./img/django.png",
+        imgAlt: "Django Logo",
+        modal: "This project was my introduction Django REST Framework. Using these tools, We created a music library backend with separate tables for artists, songs, genre, and more. Throughout the project, I learned about serializers, viewsets, and URLs, and tested everything using ThunderClient. With these tools at my belt, I could build my own API and this would wrap up the backend development section of the bootcamp.",
+        projectLink: "https://github.com/ZacRayTho/django-jams-project",
+        githubLink: "https://github.com/ZacRayTho/django-jams-project"
     },
     {
         title: "Coming soon",
