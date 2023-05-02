@@ -132,13 +132,13 @@ export const projects = [
         githubLink: "https://github.com/ZacRayTho/Marketopia-Backend"
     },
     {
-        title: "Coming soon",
-        id: "Coming soon",
-        img: "Coming soon",
-        imgAlt: "Coming soon",
-        modal: "Coming soon",
-        projectLink: "Coming soon",
-        githubLink: "Coming soon"
+        title: "Marketopia MVP",
+        id: "marketopiamvp",
+        img: "./img/project-teasers/marketopia-mvp.png",
+        imgAlt: "Marketopia docs",
+        modal: "Before starting the capstone project, we took an entire week to think through the entire website, database and more! We had to think through our project's MoSCoW, through multiple user personas. We then built off the user personas into as many stories that we could think through. After getting the sign off on the MVP , We also had to make a Kanban board from the multiple user stories and MoSCoW. Checkout the Kanban board through the repo link!",
+        projectLink: "https://docs.google.com/document/d/11c9QjbHW8q9YvY5ASa26yfVi5JBEQpvP9e01MZ7ZZKc/edit?usp=sharing",
+        githubLink: "https://github.com/users/ZacRayTho/projects/1"
     },
     {
         title: "Coming soon",
