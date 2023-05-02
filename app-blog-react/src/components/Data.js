@@ -114,22 +114,22 @@ export const projects = [
         githubLink: "https://github.com/ZacRayTho/django-jams-project"
     },
     {
-        title: "Coming soon",
-        id: "Coming soon",
-        img: "Coming soon",
-        imgAlt: "Coming soon",
-        modal: "Coming soon",
-        projectLink: "Coming soon",
-        githubLink: "Coming soon"
+        title: "Marketopia Frontend",
+        id: "marketopiafront",
+        img: "./img/project-teasers/marketopia-teaser.png",
+        imgAlt: "Marketopia teaser",
+        modal: "This was the capstone project for the Awesome Inc bootcamp, finally combining all the skills from frontend and backend!, I made a marketplace-clone and built the front end with Nextjs, and tailwindCSS. Users can post any listing they please, others users can use a range of filters to find that perfect listing, then message the other user, and leave a review if they had a good experience with that user.",
+        projectLink: "https://marketopia-frontend.vercel.app/",
+        githubLink: "https://github.com/ZacRayTho/Marketopia-Frontend"
     },
     {
-        title: "Coming soon",
-        id: "Coming soon",
-        img: "Coming soon",
-        imgAlt: "Coming soon",
-        modal: "Coming soon",
-        projectLink: "Coming soon",
-        githubLink: "Coming soon"
+        title: "Marketopia Backend",
+        id: "marketopiaback",
+        img: "./img/project-teasers/marketopia-teaser.png",
+        imgAlt: "Marketopia teaser",
+        modal: "This was the capstone project for the Awesome Inc bootcamp, finally combining all the skills from frontend and backend! I made the backend with Django REST API, and Postgres. , I constructed a powerful backend that efficiently manages the data, implements complex relationships, and provides specific views to retrieve filtered and queried results.",
+        projectLink: "https://marketopia-frontend.vercel.app/",
+        githubLink: "https://github.com/ZacRayTho/Marketopia-Backend"
     },
     {
         title: "Coming soon",
