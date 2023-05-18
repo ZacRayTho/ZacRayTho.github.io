@@ -33,6 +33,42 @@ export const stacks = [
 
 export const projects = [
     {
+        title: "Marketopia Frontend",
+        id: "marketopiafront",
+        img: "./img/project-teasers/marketopia-teaser.png",
+        imgAlt: "Marketopia teaser",
+        modal: "This was the capstone project for the Awesome Inc bootcamp, finally combining all the skills from frontend and backend!, I made a marketplace-clone and built the front end with Nextjs, and tailwindCSS. Users can post any listing they please, others users can use a range of filters to find that perfect listing, then message the other user, and leave a review if they had a good experience with that user.",
+        projectLink: "https://marketopia-frontend.vercel.app/",
+        githubLink: "https://github.com/ZacRayTho/Marketopia-Frontend"
+    },
+    {
+        title: "Marketopia Backend",
+        id: "marketopiaback",
+        img: "./img/project-teasers/marketopia-teaser.png",
+        imgAlt: "Marketopia teaser",
+        modal: "This was the capstone project for the Awesome Inc bootcamp, finally combining all the skills from frontend and backend! I made the backend with Django REST API, and Postgres. , I constructed a powerful backend that efficiently manages the data, implements complex relationships, and provides specific views to retrieve filtered and queried results.",
+        projectLink: "https://marketopia-frontend.vercel.app/",
+        githubLink: "https://github.com/ZacRayTho/Marketopia-Backend"
+    },
+    {
+        title: "Marketopia MVP",
+        id: "marketopiamvp",
+        img: "./img/project-teasers/marketopia-mvp.png",
+        imgAlt: "Marketopia docs",
+        modal: "Before starting the capstone project, we took an entire week to think through the entire website, database and more! We had to think through our project's MoSCoW, through multiple user personas. We then built off the user personas into as many stories that we could think through. After getting the sign off on the MVP , We also had to make a Kanban board from the multiple user stories and MoSCoW. Checkout the Kanban board through the repo link!",
+        projectLink: "https://docs.google.com/document/d/11c9QjbHW8q9YvY5ASa26yfVi5JBEQpvP9e01MZ7ZZKc/edit?usp=sharing",
+        githubLink: "https://github.com/users/ZacRayTho/projects/1"
+    },
+    {
+        title: "Twitter Clone",
+        id: "twitter",
+        img: "./img/project-teasers/twitter-teaser.png",
+        imgAlt: "Teaser Clone",
+        modal: "I created a Twitter clone while we moved to backend development. This project allowed me to experiment with Next.js, Tailwind CSS, and Typescript while keeping my React and JavaScript skills up-to-date. The application is designed to mimic the functionality and user experience of Twitter, with features like login with NextAuth through twitter's API, posting, and commenting.",
+        projectLink: "https://twitter-clone-rho-two.vercel.app/",
+        githubLink: "https://github.com/ZacRayTho/twitter-clone"
+    },
+    {
         title: "Weather app",
         id: "weatherapp",
         img: "./img/project-teasers/weather-app-teaser.png",
@@ -69,15 +105,6 @@ export const projects = [
         githubLink: "https://github.com/ZacRayTho/react-restaurants"
     },
     {
-        title: "Twitter Clone",
-        id: "twitter",
-        img: "./img/project-teasers/twitter-teaser.png",
-        imgAlt: "Teaser Clone",
-        modal: "I created a Twitter clone while we moved to backend development. This project allowed me to experiment with Next.js, Tailwind CSS, and Typescript while keeping my React and JavaScript skills up-to-date. The application is designed to mimic the functionality and user experience of Twitter, with features like login with NextAuth through twitter's API, posting, and commenting.",
-        projectLink: "https://twitter-clone-rho-two.vercel.app/",
-        githubLink: "https://github.com/ZacRayTho/twitter-clone"
-    },
-    {
         title: "Budget app",
         id: "Budget",
         img: "./img/python.png",
@@ -112,33 +139,6 @@ export const projects = [
         modal: "This project was my introduction Django REST Framework. Using these tools, We created a music library backend with separate tables for artists, songs, genre, and more. Throughout the project, I learned about serializers, viewsets, and URLs, and tested everything using ThunderClient. With these tools at my belt, I could build my own API and this would wrap up the backend development section of the bootcamp.",
         projectLink: "https://github.com/ZacRayTho/django-jams-project",
         githubLink: "https://github.com/ZacRayTho/django-jams-project"
-    },
-    {
-        title: "Marketopia Frontend",
-        id: "marketopiafront",
-        img: "./img/project-teasers/marketopia-teaser.png",
-        imgAlt: "Marketopia teaser",
-        modal: "This was the capstone project for the Awesome Inc bootcamp, finally combining all the skills from frontend and backend!, I made a marketplace-clone and built the front end with Nextjs, and tailwindCSS. Users can post any listing they please, others users can use a range of filters to find that perfect listing, then message the other user, and leave a review if they had a good experience with that user.",
-        projectLink: "https://marketopia-frontend.vercel.app/",
-        githubLink: "https://github.com/ZacRayTho/Marketopia-Frontend"
-    },
-    {
-        title: "Marketopia Backend",
-        id: "marketopiaback",
-        img: "./img/project-teasers/marketopia-teaser.png",
-        imgAlt: "Marketopia teaser",
-        modal: "This was the capstone project for the Awesome Inc bootcamp, finally combining all the skills from frontend and backend! I made the backend with Django REST API, and Postgres. , I constructed a powerful backend that efficiently manages the data, implements complex relationships, and provides specific views to retrieve filtered and queried results.",
-        projectLink: "https://marketopia-frontend.vercel.app/",
-        githubLink: "https://github.com/ZacRayTho/Marketopia-Backend"
-    },
-    {
-        title: "Marketopia MVP",
-        id: "marketopiamvp",
-        img: "./img/project-teasers/marketopia-mvp.png",
-        imgAlt: "Marketopia docs",
-        modal: "Before starting the capstone project, we took an entire week to think through the entire website, database and more! We had to think through our project's MoSCoW, through multiple user personas. We then built off the user personas into as many stories that we could think through. After getting the sign off on the MVP , We also had to make a Kanban board from the multiple user stories and MoSCoW. Checkout the Kanban board through the repo link!",
-        projectLink: "https://docs.google.com/document/d/11c9QjbHW8q9YvY5ASa26yfVi5JBEQpvP9e01MZ7ZZKc/edit?usp=sharing",
-        githubLink: "https://github.com/users/ZacRayTho/projects/1"
     },
     {
         title: "Coming soon",
