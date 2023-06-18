@@ -9,7 +9,7 @@ function ProjectCard({ project, setShowModal, showModal, setModalData }) {
             <div className="font-bold text-xl text-center py-1">{project.title}</div>
             <img
                 alt={project.imgAlt}
-                className="rounded mx-auto my-2"
+                className="rounded mx-auto my-2 object-contain"
                 id="project-teaser"
                 src={project.img}
             />

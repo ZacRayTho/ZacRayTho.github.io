@@ -8,7 +8,7 @@ import "../styles/global.css"
 export default function MyApp({ Component, pageProps }) {
   return (<>
     <Head>
-      <title> Zach </title>
+      <title>Zachary Thomas Portfolio</title>
       <link rel="icon" href="./zt-logo.png" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

@@ -44,14 +44,13 @@ function About() {
 
   return (
     <div id="About" className="bg-gradient-to-b from-navy to-lightnavy p-5 flex-col" >
-      <div div className="max-w-7xl mx-auto lg:h-[22rem] items-stretch lg:flex" >
+      <div className="max-w-7xl mx-auto lg:h-[22rem] items-stretch lg:flex" >
         <div className="bg-gradient-to-b  from-transparent to-gold lg:bg-gradient-to-r lg:w-[81%] min-h-full text-center ">
 
           <h2 className="">About Me</h2>
           <p className="">
             Hey! You stumbled onto my wonderful portfolio, have a great stay!
             <br />
-
             I have always loved learning and problem solving but I wasn't sure
             if software development was right for me. I decided to give it a try
             and I'm glad I did! I enjoy working with code and I'm always learning new things.

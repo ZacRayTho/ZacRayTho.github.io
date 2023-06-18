@@ -2,11 +2,6 @@ import About from './About'
 import Nav from './Nav'
 function Landing() {
 
-  function handleClick() {
-    console.log("clicked")
-    window.scroll({ top: window.screen.height })
-  }
-
   return (
     <>
       <div id='fun' className="h-full overflow-auto no-scrollbar scroll-smooth w-screen">
@@ -19,7 +14,7 @@ function Landing() {
           </div>
         </div>
         <div id="chevron" className="flex w-1/2 mx-auto justify-center h-1/2">
-          <a id="downWeGo" href="#about" className="btn btn-transparent border-transparent">
+          <a id="downWeGo" href="#About" className="btn btn-transparent border-transparent">
             <img src={"./img/chevron.svg"} alt="Chevron Down" />
           </a>
         </div>

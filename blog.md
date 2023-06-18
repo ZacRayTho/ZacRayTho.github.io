@@ -246,3 +246,38 @@ same ideas as before, or have they changed now that you understand more about th
     of all the queries necessary to get only a little amount of data back. I understand the importance of databases  
     and SQL, and could probably work in depth with them if needed but its not high on my list of wants.
 
+## Week 9
+## Django 
+
+### What are you struggling with the most in the tech stack so far and why?
+
+    I think it's pretty hard to narrow what i'm struggling with the most in the tech stack. Some times I     
+    struggle with aligning front end components, other times trying to get the specific data from queries    
+     can  be a hassle. Django definitely helps with queries though and sometimes bootstrap cooperates and     
+     aligns stuff how I want.
+
+
+### After having built your first full-stack application, what things in your repertoire are a sticking point for you? What was it like connecting front and back end?
+
+    A sticking point for me is keeping up to up date with all the newest libraries and frameworks that are always revolving, and just staying constant on practicing for both ends of the stack. My first jump back into javascript from python after 2 weeks without curly brackets, It was a struggle to say to least to remember the right syntax.
+
+    Connecting the front end to the back was a more simple process then what I thought. I was not aware that APIs were able to take requests from the front end and modify the database, because I have only ever used APIs to read data from. I figured there'd be a whole separate process to send data back until I realized that Axios had methods named after all the CRUD functions.
+
+## Week 10
+## Finish Line 1
+
+### Describe Agile Development or a specific ceremony(stand up, retro, sprints)
+
+    Agile development is an approach towards software development, focused more around the customer, than around the initial plans. Agile is named aptly since the whole process it covers is agile in the way that if the   plans change no matter the reason, the development should be able to pivot without nuking and paving the entire project and starting from the ground. Agile methodologies also include communication and collaboration     between multiple teams who are working on separate aspects of the project. This week we solely focused on our MVPs, and besides me updating my portfolio with new stuff I've learned, there was no coding this week.      Definitely was a different week that was slow to start, but it highlights an importance aspect of agile development, the MVP is the a way to obtain the most data for the project with the least effort while providing     something for the customer.    
+
+### Convince someone who does not use frameworks why using a framework is beneficial.
+
+    Frameworks are beneficial because they reduce the amount of code you need to write and in doing so also keep with DRY principles. Theres no need to reinvent the wheel, and sometimes someone has already wrote a thousand plus lines of code and even made classes, methods, and functions to make it easier for you to implement the code into your project without interfering with anything already in it.
+
+## Evercraft Blog
+
+    This Week I've been revisiting the Evercraft project from the bootcamp. The Evercraft project is all about Test-Driven Development (TDD) while building a domain model. This project consist of several iterations, each introducing new features and requirements, I limited myself to only the first two iterations for now. A side product of this project is writing a massive amount of code and learning a lot about the language you are coding it in. I was motivated to redo this project by my desire to sharpen my Python skills. Python is the backend language we started learning at the Awesome Inc U bootcamp and I want to ensure my full stack skills are honed so I can be ready to not only use them on my personal projects but contribute to my future employer.
+    
+    The TDD process begins with writing failing tests, focusing on small code units, and writing the code to pass the test after. This approach ensures proper feature integration and catches bugs early on. During the project, I encountered some challenges from not approaching the project with a proper object-oriented mindset. In hindsight, I realize the importance of well-defined classes that improve maintainability, and functionality. This was something the instructors had educated us on, and now on my own doing projects I remember why. I will remember the struggles my lack of OOP caused when I tackle my next project! Upon further review of the project during debrief, I realized I did not seek feedback from others earlier in the project, doing so could have provided alternative insights, perspectives, and other solutions. My inclusion of other insights could have happened through clean pseudocode, pairing with a peer, or checking in with my past instructors. Although I am extremely happy with completing this project on my own, identifying and naming these challenges served as important lessons, emphasizing the value of object-oriented design principles and benefits of early collaboration and feedback.
+    
+    Overall the Evercraft project improved my understanding of object-oriented programming, leveraging Python's features effectively, and applying Test-Driven Development principles. Revisiting the Evercraft project from bootcamp has been a rewarding experience for sharpening my Python skills. I look forward to pushing the boundaries of what I can accomplish and embracing new opportunities for growth.

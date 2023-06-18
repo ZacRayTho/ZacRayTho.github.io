@@ -3,7 +3,7 @@ function Nav() {
 
   return (
     <>
-      <Navbar className="!bg-transparent fixed top-0 flex lg:inset-x-0"
+      <Navbar className="!bg-transparent flex fixed top-0 lg:inset-x-0"
         fluid={true}
         rounded={true}
       >
@@ -15,28 +15,28 @@ function Nav() {
               alt="Zachary Thomas Logo"
             />
           </Navbar.Brand> */}
-          <Navbar.Toggle />
+          <Navbar.Toggle/>
           <Navbar.Collapse >
-            <div className="flex space-x-11">
+            <div className="bg-navy border-2 border-gold rounded-lg md:flex">
               <div>
-                <Navbar.Link className="text-white text-2xl lg:hidden" href="#About">
+                <a className="text-white text-2xl lg:hidden mx-auto px-3" href="#About">
                   Contact
-                </Navbar.Link>
+                </a>
               </div>
               <div>
-                <Navbar.Link className="text-white text-2xl" href="#About">
+                <a className="text-white text-2xl mx-auto px-3" href="#About">
                   About
-                </Navbar.Link>
+                </a>
               </div>
               <div>
-                <Navbar.Link className="text-white text-2xl" href="#Projects">
+                <a className="text-white text-2xl mx-auto px-3" href="#Projects">
                   Projects
-                </Navbar.Link>
+                </a>
               </div>
               <div>
-                <Navbar.Link className="text-white text-2xl" href="#Blogs">
+                <a className="text-white text-2xl mx-auto px-3" href="#Blogs">
                   Blog
-                </Navbar.Link>
+                </a>
               </div>
             </div>
           </Navbar.Collapse>

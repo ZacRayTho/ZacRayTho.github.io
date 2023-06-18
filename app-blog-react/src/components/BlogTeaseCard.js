@@ -2,12 +2,7 @@ import Link from "next/link";
 import { NavLink } from "react-router-dom";
 
 function BlogTeaseCard({ blog }) {
-
-    // function handleClick() {
-    //     setView("Blog")
-    //     setBlog(link)
-    // }
-
+    console.log(blog.id)
     return (
         <div className="w-72 border-4 border-gold mb-4 mx-auto bg-mediumnavy rounded-lg px-2 h-fit">
             <div className="font-bold text-xl flex items-center justify-center text-center min-h-[4rem] ">{blog.header}</div>
